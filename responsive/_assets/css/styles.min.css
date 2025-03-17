@@ -46,55 +46,55 @@ a:link {
     font-family: "Pretendard";
     font-weight: 900;
     font-display: swap;
-    src: local("Pretendard Black"), url("/responsive/_assets/font/Pretendard-Black.woff2") format("woff2")
+    src: local("Pretendard Black"), url("/rc/responsive/_assets/font/Pretendard-Black.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "Pretendard";
     font-weight: 800;
     font-display: swap;
-    src: local("Pretendard ExtraBold"), url("/responsive/_assets/font/Pretendard-ExtraBold.woff2") format("woff2")
+    src: local("Pretendard ExtraBold"), url("/rc/responsive/_assets/font/Pretendard-ExtraBold.woff2") format("woff2")
 }
 @font-face {
     font-family: "Pretendard";
     font-weight: 500;
     font-display: swap;
-    src: local("Pretendard Bold"), url("/responsive/_assets/font/Pretendard-Bold.woff2") format("woff2")
-}
-
-@font-face {
-    font-family: "Pretendard";
-    font-weight: 500;
-    font-display: swap;
-    src: local("Pretendard SemiBold"), url("/responsive/_assets/font/Pretendard-SemiBold.woff2") format("woff2")
+    src: local("Pretendard Bold"), url("/rc/responsive/_assets/font/Pretendard-Bold.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "Pretendard";
     font-weight: 500;
     font-display: swap;
-    src: local("Pretendard Medium"), url("/responsive/_assets/font/Pretendard-Medium.woff2") format("woff2")
+    src: local("Pretendard SemiBold"), url("/rc/responsive/_assets/font/Pretendard-SemiBold.woff2") format("woff2")
+}
+
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 500;
+    font-display: swap;
+    src: local("Pretendard Medium"), url("/rc/responsive/_assets/font/Pretendard-Medium.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "Pretendard";
     font-weight: 400;
     font-display: swap;
-    src: local("Pretendard Regular"), url("/responsive/_assets/font/Pretendard-Regular.woff2") format("woff2")
+    src: local("Pretendard Regular"), url("/rc/responsive/_assets/font/Pretendard-Regular.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "Pretendard";
     font-weight: 300;
     font-display: swap;
-    src: local("Pretendard Light"), url("/responsive/_assets/font/Pretendard-Light.woff2") format("woff2")
+    src: local("Pretendard Light"), url("/rc/responsive/_assets/font/Pretendard-Light.woff2") format("woff2")
 }
 
 @font-face {
     font-family: "Pretendard";
     font-weight: 200;
     font-display: swap;
-    src: local("Pretendard ExtraLight"), url("/responsive/_assets/font/Pretendard-ExtraLight.woff2") format("woff2")
+    src: local("Pretendard ExtraLight"), url("/rc/responsive/_assets/font/Pretendard-ExtraLight.woff2") format("woff2")
 }
 
 @keyframes animatedgradient {
@@ -130,7 +130,7 @@ p.helper[data-type=error]:before {
     display: block;
     width: 3.5897435897vw;
     height: 3.5897435897vw;
-    background-image: url("/responsive/_assets/img/pictogram/picto-xs-helper-error@3x.png");
+    background-image: url("/rc/responsive/_assets/img/pictogram/picto-xs-helper-error@3x.png");
     background-size: 100%
 }
 
@@ -437,7 +437,7 @@ button.dismiss > .pictogram {
     width: 5.1282051282vw;
     height: 5.1282051282vw;
     background-size: 100%;
-    background-image: url(/responsive/_assets/img/pictogram/picto-md-dismiss@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-md-dismiss@3x.png)
 }
 
 a.cta, button.cta, button.more {
@@ -483,11 +483,11 @@ button.flipper > .pictogram {
 }
 
 [data-type=membership-summary] button.flipper .pictogram {
-    background-image: url("/responsive/_assets/img/pictogram/picto-md-barcode@3x.png")
+    background-image: url("/rc/responsive/_assets/img/pictogram/picto-md-barcode@3x.png")
 }
 
 [data-type=membership-cards] button.flipper .pictogram {
-    background-image: url("/responsive/_assets/img/pictogram/picto-md-turn@3x.png")
+    background-image: url("/rc/responsive/_assets/img/pictogram/picto-md-turn@3x.png")
 }
 
 .form-group {
@@ -613,7 +613,7 @@ button.flipper > .pictogram {
     align-self: center;
     width: 4.1025641026vw;
     height: 4.1025641026vw;
-    background-image: url("/responsive/_assets/img/pictogram/picto-sm-help@3x.png");
+    background-image: url("/rc/responsive/_assets/img/pictogram/picto-sm-help@3x.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%
@@ -941,7 +941,7 @@ button.flipper > .pictogram {
     width: 5.1282051282vw;
     height: 5.1282051282vw;
     margin: 0 auto 1.0256410256vw auto;
-    background-image: url("/responsive/_assets/img/pictogram/picto-md-check@3x.png");
+    background-image: url("/rc/responsive/_assets/img/pictogram/picto-md-check@3x.png");
     background-repeat: no-repeat;
     background-size: 100%;
     filter: invert(1)
@@ -1261,7 +1261,7 @@ button.flipper > .pictogram {
 .module-block .contents .body[data-contain=diff] .chart .log-line {
     position: absolute;
     inset: 0;
-    background: url(/responsive/_assets/img/etc/log-line.svg);
+    background: url(/rc/responsive/_assets/img/etc/log-line.svg);
     background-size: 100%
 }
 
@@ -2173,7 +2173,7 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-type=welcome] .backdrop {
-    background-image: url("/responsive/_assets/img/backdrop/backdrop-welcome@3x.png")
+    background-image: url("/rc/responsive/_assets/img/backdrop/backdrop-welcome@3x.png")
 }
 
 .module-block[data-type=welcome] .contents {
@@ -2222,23 +2222,23 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-type=welcome] .contents .body .swiper .swiper-wrapper .swiper-slide.slide-1 {
-    background-image: url("/responsive/_assets/img/hero/hero-welcome-1@3x.png")
+    background-image: url("/rc/responsive/_assets/img/hero/hero-welcome-1@3x.png")
 }
 
 .module-block[data-type=welcome] .contents .body .swiper .swiper-wrapper .swiper-slide.slide-2 {
-    background-image: url("/responsive/_assets/img/hero/hero-welcome-2@3x.png")
+    background-image: url("/rc/responsive/_assets/img/hero/hero-welcome-2@3x.png")
 }
 
 .module-block[data-type=welcome] .contents .body .swiper .swiper-wrapper .swiper-slide.slide-3 {
-    background-image: url("/responsive/_assets/img/hero/hero-welcome-3@3x.png")
+    background-image: url("/rc/responsive/_assets/img/hero/hero-welcome-3@3x.png")
 }
 
 .module-block[data-type=welcome] .contents .body .swiper .swiper-wrapper .swiper-slide.slide-4 {
-    background-image: url("/responsive/_assets/img/hero/hero-welcome-4@3x.png")
+    background-image: url("/rc/responsive/_assets/img/hero/hero-welcome-4@3x.png")
 }
 
 .module-block[data-type=welcome] .contents .body .swiper .swiper-wrapper .swiper-slide.slide-5 {
-    background-image: url("/responsive/_assets/img/hero/hero-welcome-5@3x.png")
+    background-image: url("/rc/responsive/_assets/img/hero/hero-welcome-5@3x.png")
 }
 
 .module-block[data-type=welcome] .contents .tail .cta {
@@ -2560,7 +2560,7 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-type=membership][data-tier=lv1] .backdrop {
-    background-image: url("/responsive/_assets/img/backdrop/backdrop-tier-lv1@3x.png")
+    background-image: url("/rc/responsive/_assets/img/backdrop/backdrop-tier-lv1@3x.png")
 }
 
 .module-block[data-type=membership][data-tier=lv1] .panel[data-type=membership-summary] .head strong {
@@ -2568,7 +2568,7 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-type=membership][data-tier=lv1] .panel[data-type=membership-summary] .body .tier {
-    background-image: url("/responsive/_assets/img/tier/tier-lv1@3x.png")
+    background-image: url("/rc/responsive/_assets/img/tier/tier-lv1@3x.png")
 }
 
 .module-block[data-type=membership][data-tier=lv1] .panel[data-type=membership-summary] .tail dl dd {
@@ -2581,7 +2581,7 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-type=membership][data-tier=lv2] .backdrop {
-    background-image: url("/responsive/_assets/img/backdrop/backdrop-tier-lv4@3x.png")
+    background-image: url("/rc/responsive/_assets/img/backdrop/backdrop-tier-lv4@3x.png")
 }
 
 .module-block[data-type=membership][data-tier=lv2] .panel[data-type=membership-summary] .head strong {
@@ -2589,7 +2589,7 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-type=membership][data-tier=lv2] .panel[data-type=membership-summary] .body .tier {
-    background-image: url("/responsive/_assets/img/tier/tier-lv2@3x.png")
+    background-image: url("/rc/responsive/_assets/img/tier/tier-lv2@3x.png")
 }
 
 .module-block[data-type=membership][data-tier=lv2] .panel[data-type=membership-summary] .tail dl dd {
@@ -2602,7 +2602,7 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-type=membership][data-tier=lv3] .backdrop {
-    background-image: url("/responsive/_assets/img/backdrop/backdrop-tier-lv3@3x.png")
+    background-image: url("/rc/responsive/_assets/img/backdrop/backdrop-tier-lv3@3x.png")
 }
 
 .module-block[data-type=membership][data-tier=lv3] .panel[data-type=membership-summary] .head strong {
@@ -2610,7 +2610,7 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-type=membership][data-tier=lv3] .panel[data-type=membership-summary] .body .tier {
-    background-image: url("/responsive/_assets/img/tier/tier-lv3@3x.png")
+    background-image: url("/rc/responsive/_assets/img/tier/tier-lv3@3x.png")
 }
 
 .module-block[data-type=membership][data-tier=lv3] .panel[data-type=membership-summary] .tail dl dd {
@@ -2623,7 +2623,7 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-type=membership][data-tier=lv4] .backdrop {
-    background-image: url("/responsive/_assets/img/backdrop/backdrop-tier-lv4@3x.png")
+    background-image: url("/rc/responsive/_assets/img/backdrop/backdrop-tier-lv4@3x.png")
 }
 
 .module-block[data-type=membership][data-tier=lv4] .panel[data-type=membership-summary] .head strong {
@@ -2631,7 +2631,7 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-type=membership][data-tier=lv4] .panel[data-type=membership-summary] .body .tier {
-    background-image: url("/responsive/_assets/img/tier/tier-lv4@3x.png")
+    background-image: url("/rc/responsive/_assets/img/tier/tier-lv4@3x.png")
 }
 
 .module-block[data-type=membership][data-tier=lv4] .panel[data-type=membership-summary] .tail dl dd {
@@ -2644,7 +2644,7 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-type=membership][data-tier=lv5] .backdrop {
-    background-image: url("/responsive/_assets/img/backdrop/backdrop-tier-lv5@3x.png")
+    background-image: url("/rc/responsive/_assets/img/backdrop/backdrop-tier-lv5@3x.png")
 }
 
 .module-block[data-type=membership][data-tier=lv5] .panel[data-type=membership-summary] .head strong {
@@ -2652,7 +2652,7 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-type=membership][data-tier=lv5] .panel[data-type=membership-summary] .body .tier {
-    background-image: url("/responsive/_assets/img/tier/tier-lv5@3x.png")
+    background-image: url("/rc/responsive/_assets/img/tier/tier-lv5@3x.png")
 }
 
 .module-block[data-type=membership][data-tier=lv5] .panel[data-type=membership-summary] .tail dl dd {
@@ -2789,7 +2789,7 @@ button.flipper > .pictogram {
     width: 5.1282051282vw;
     height: 5.1282051282vw;
     background-size: 100%;
-    background-image: url("/responsive/_assets/img/pictogram/picto-md-back@3x.png");
+    background-image: url("/rc/responsive/_assets/img/pictogram/picto-md-back@3x.png");
     opacity: .7;
     filter: invert(1);
     -webkit-filter: invert(1)
@@ -2821,7 +2821,7 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-type=utility][data-view=home] .contents .head a .pictogram {
-    background-image: url("/responsive/_assets/img/pictogram/picto-md-home@3x.png")
+    background-image: url("/rc/responsive/_assets/img/pictogram/picto-md-home@3x.png")
 }
 
 .module-block[data-type=history] .contents .head h2 strong {
@@ -2966,7 +2966,7 @@ button.flipper > .pictogram {
     width: 5.641025641vw;
     height: 5.641025641vw;
     background-size: 100%;
-    background-image: url(/responsive/_assets/img/pictogram/picto-lg-reset@3x.png);
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-lg-reset@3x.png);
     filter: invert(1);
     -webkit-filter: invert(1)
 }
@@ -2997,7 +2997,7 @@ button.flipper > .pictogram {
     content: "";
     display: flex;
     width: 100%;
-    background-image: url(/responsive/_assets/img/stamp/ornament-title.png);
+    background-image: url(/rc/responsive/_assets/img/stamp/ornament-title.png);
     background-size: 100%;
     height: 2.0512820513vw
 }
@@ -3024,7 +3024,7 @@ button.flipper > .pictogram {
 .module-block[data-type=stamp] .contents .body .stamp-slot {
     margin-top: 10.2564102564vw;
     position: relative;
-    background-image: url(/responsive/_assets/img/stamp/backdrop.png);
+    background-image: url(/rc/responsive/_assets/img/stamp/backdrop.png);
     background-size: cover;
     border-radius: 3.0769230769vw;
     padding: 2.5641025641vw
@@ -3060,12 +3060,12 @@ button.flipper > .pictogram {
 
 .module-block[data-type=stamp] .contents .body .stamp-slot .swiper button.prev {
     left: 1.0256410256vw;
-    background-image: url(/responsive/_assets/img/pictogram/picto-lg-prev@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-lg-prev@3x.png)
 }
 
 .module-block[data-type=stamp] .contents .body .stamp-slot .swiper button.next {
     right: 1.0256410256vw;
-    background-image: url(/responsive/_assets/img/pictogram/picto-lg-next@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-lg-next@3x.png)
 }
 
 .module-block[data-type=stamp] .contents .body .stamp-slot .swiper .swiper-pagination {
@@ -3104,7 +3104,7 @@ button.flipper > .pictogram {
     flex-shrink: 1;
     width: 19.2307692308vw;
     height: 19.2307692308vw;
-    background-image: url(/responsive/_assets/img/stamp/slot.png);
+    background-image: url(/rc/responsive/_assets/img/stamp/slot.png);
     background-size: cover
 }
 
@@ -3116,23 +3116,23 @@ button.flipper > .pictogram {
     top: 50%;
     transform: translate(-50%, -50%);
     background-size: 100%;
-    background-image: url(/responsive/_assets/img/stamp/stamp-on.png)
+    background-image: url(/rc/responsive/_assets/img/stamp/stamp-on.png)
 }
 
 .module-block[data-type=stamp] .contents .body .stamp-slot ul li:nth-child(6) {
-    background-image: url(/responsive/_assets/img/stamp/slot-goal-1.png)
+    background-image: url(/rc/responsive/_assets/img/stamp/slot-goal-1.png)
 }
 
 .module-block[data-type=stamp] .contents .body .stamp-slot ul li:nth-child(6) span {
-    background-image: url(/responsive/_assets/img/stamp/stamp-goal.png)
+    background-image: url(/rc/responsive/_assets/img/stamp/stamp-goal.png)
 }
 
 .module-block[data-type=stamp] .contents .body .stamp-slot ul li:nth-child(12) {
-    background-image: url(/responsive/_assets/img/stamp/slot-goal-2.png)
+    background-image: url(/rc/responsive/_assets/img/stamp/slot-goal-2.png)
 }
 
 .module-block[data-type=stamp] .contents .body .stamp-slot ul li:nth-child(12) span {
-    background-image: url(/responsive/_assets/img/stamp/stamp-goal.png)
+    background-image: url(/rc/responsive/_assets/img/stamp/stamp-goal.png)
 }
 
 .module-block[data-type=stamp] .contents .body .stamp-slot dl.membership {
@@ -3191,7 +3191,7 @@ button.flipper > .pictogram {
     height: 28.2051282051vw;
     right: 8.7179487179vw;
     top: -14.1025641026vw;
-    background-image: url(/responsive/_assets/img/stamp/ornament-stamp.png);
+    background-image: url(/rc/responsive/_assets/img/stamp/ornament-stamp.png);
     background-size: 100%
 }
 
@@ -3202,7 +3202,7 @@ button.flipper > .pictogram {
 .module-block[data-view=available] .contents {
     justify-content: space-between;
     gap: 5.1282051282vw;
-    background-image: url("/responsive/_assets/img/inhouse/available.png");
+    background-image: url("/rc/responsive/_assets/img/inhouse/available.png");
     background-size: 100%
 }
 
@@ -3294,7 +3294,7 @@ button.flipper > .pictogram {
 }
 
 .module-block[data-view=remain] .contents {
-    background-image: url("/responsive/_assets/img/inhouse/remain.png");
+    background-image: url("/rc/responsive/_assets/img/inhouse/remain.png");
     background-size: 100%
 }
 
@@ -3498,7 +3498,7 @@ button.flipper > .pictogram {
     width: 5.1282051282vw;
     height: 5.1282051282vw;
     background-size: 100%;
-    background-image: url(/responsive/_assets/img/pictogram/picto-md-drivers@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-md-drivers@3x.png)
 }
 
 .module-block[data-type=gift-view] .contents canvas#congrats, .module-block[data-type=gift-view-expired] .contents canvas#congrats, .module-block[data-type=gift-view-rejected] .contents canvas#congrats, .module-block[data-type=gift-view-accepted] .contents canvas#congrats, .module-block[data-type=history] .contents canvas#congrats, .module-block[data-type=history-empty] .contents canvas#congrats {
@@ -3669,7 +3669,7 @@ button.flipper > .pictogram {
     width: 5.1282051282vw;
     height: 5.1282051282vw;
     background-size: 100%;
-    background-image: url(/responsive/_assets/img/pictogram/picto-md-gift@3x.png);
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-md-gift@3x.png);
     filter: invert(1)
 }
 
@@ -4041,12 +4041,12 @@ button.flipper > .pictogram {
 
 .windows[data-type=driver] .contents .body button.next {
     right: 4.1025641026vw;
-    background-image: url("/responsive/_assets/img/pictogram/picto-lg-next@3x.png")
+    background-image: url("/rc/responsive/_assets/img/pictogram/picto-lg-next@3x.png")
 }
 
 .windows[data-type=driver] .contents .body button.prev {
     left: 4.1025641026vw;
-    background-image: url("/responsive/_assets/img/pictogram/picto-lg-prev@3x.png")
+    background-image: url("/rc/responsive/_assets/img/pictogram/picto-lg-prev@3x.png")
 }
 
 .windows[data-type=driver] .contents .body img {
@@ -4143,7 +4143,7 @@ html, body {
     display: block;
     width: 42.8205128205vw;
     height: 4.1025641026vw;
-    background-image: url(/responsive/_assets/img/site-brand/site-brand@3x.png);
+    background-image: url(/rc/responsive/_assets/img/site-brand/site-brand@3x.png);
     background-size: 100%
 }
 
@@ -4192,7 +4192,7 @@ html, body {
     background-size: 100% 100%;
     -webkit-filter: invert(1);
     filter: invert(1);
-    background-image: url(/responsive/_assets/img/pictogram/picto-hg-dock-dot@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-dock-dot@3x.png)
 }
 
 .dock > ul > li > .rim ul {
@@ -4245,15 +4245,15 @@ html, body {
 }
 
 .dock > ul > li > .rim ul li a.club .pictogram {
-    background-image: url("/responsive/_assets/img/pictogram/picto-hg-dock-rim-intro@3x.png")
+    background-image: url("/rc/responsive/_assets/img/pictogram/picto-hg-dock-rim-intro@3x.png")
 }
 
 .dock > ul > li > .rim ul li a.respect .pictogram {
-    background-image: url("/responsive/_assets/img/pictogram/picto-hg-dock-respect@3x.png")
+    background-image: url("/rc/responsive/_assets/img/pictogram/picto-hg-dock-respect@3x.png")
 }
 
 .dock > ul > li > .rim ul li a.signup .pictogram {
-    background-image: url("/responsive/_assets/img/pictogram/picto-hg-dock-signup@3x.png")
+    background-image: url("/rc/responsive/_assets/img/pictogram/picto-hg-dock-signup@3x.png")
 }
 
 .dock > ul > li > a, .dock > ul > li > button {
@@ -4286,19 +4286,19 @@ html, body {
 .dock > ul > li > a.rim .pictogram, .dock > ul > li > button.rim .pictogram {
     -webkit-filter: invert(1);
     filter: invert(1);
-    background-image: url(/responsive/_assets/img/pictogram/picto-hg-dock-rim@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-dock-rim@3x.png)
 }
 
 .dock > ul > li > a.home .pictogram, .dock > ul > li > button.home .pictogram {
-    background-image: url(/responsive/_assets/img/pictogram/picto-hg-dock-home@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-dock-home@3x.png)
 }
 
 .dock > ul > li > a.gift .pictogram, .dock > ul > li > button.gift .pictogram {
-    background-image: url(/responsive/_assets/img/pictogram/picto-hg-dock-gift@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-dock-gift@3x.png)
 }
 
 .dock > ul > li > a.history .pictogram, .dock > ul > li > button.history .pictogram {
-    background-image: url(/responsive/_assets/img/pictogram/picto-hg-dock-history@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-dock-history@3x.png)
 }
 
 .dock .portal {
@@ -4329,11 +4329,11 @@ html, body {
 }
 
 .dock .portal button span.pictogram.ananti {
-    background-image: url("/responsive/_assets/img/layout/portal-ant-lg.png")
+    background-image: url("/rc/responsive/_assets/img/layout/portal-ant-lg.png")
 }
 
 .dock .portal button span.pictogram.eternaljourney {
-    background-image: url("/responsive/_assets/img/layout/portal-ej-lg.png")
+    background-image: url("/rc/responsive/_assets/img/layout/portal-ej-lg.png")
 }
 
 .dock .portal > ul {
@@ -4374,11 +4374,11 @@ html, body {
 }
 
 .dock .portal > ul li a.ananti:before {
-    background-image: url("/responsive/_assets/img/layout/portal-ant.png")
+    background-image: url("/rc/responsive/_assets/img/layout/portal-ant.png")
 }
 
 .dock .portal > ul li a.eternaljourney:before {
-    background-image: url("/responsive/_assets/img/layout/portal-ej.png")
+    background-image: url("/rc/responsive/_assets/img/layout/portal-ej.png")
 }
 
 .dock .portal > ul:before {
@@ -4495,7 +4495,7 @@ body[data-component-pin=secondary] .module-block[data-type=membership] {
     width: 7.1794871795vw;
     height: 7.1794871795vw;
     background-size: 100%;
-    background-image: url(/responsive/_assets/img/pictogram/picto-lg-dock-top@3x.png);
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-lg-dock-top@3x.png);
     filter: invert(1);
     -webkit-filter: invert(1)
 }
@@ -4589,7 +4589,7 @@ header {
     top: 50%;
     transform: translate(-50%, -50%);
     background-size: 100%;
-    background-image: url("/responsive/_assets/img/pictogram/picto-lg-dock-dot@3x.png");
+    background-image: url("/rc/responsive/_assets/img/pictogram/picto-lg-dock-dot@3x.png");
     -webkit-filter: invert(1);
     filter: invert(1)
 }
@@ -4628,15 +4628,15 @@ header {
 }
 
 .quickLink > .link a.ananti span.pictogram {
-    background-image: url("/responsive/_assets/img/quickLink/quickLink-ant@3x.png")
+    background-image: url("/rc/responsive/_assets/img/quickLink/quickLink-ant@3x.png")
 }
 
 .quickLink > .link a.eternaljourney span.pictogram {
-    background-image: url("/responsive/_assets/img/quickLink/quickLink-ej@3x.png")
+    background-image: url("/rc/responsive/_assets/img/quickLink/quickLink-ej@3x.png")
 }
 
 .quickLink > .link a.myRim span.pictogram {
-    background-image: url("/responsive/_assets/img/quickLink/quickLink-myRim@3x.png")
+    background-image: url("/rc/responsive/_assets/img/quickLink/quickLink-myRim@3x.png")
 }
 
 .quickLink > .link a.rimClub, .quickLink > .link a.respect, .quickLink > .link a.gift {
@@ -4784,31 +4784,31 @@ header {
 }
 
 .history-group li .history[data-visual=mall] .pictogram:after {
-    background-image: url(/responsive/_assets/img/pictogram/picto-hg-cart@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-cart@3x.png)
 }
 
 .history-group li .history[data-visual=gift] .pictogram:after {
-    background-image: url(/responsive/_assets/img/pictogram/picto-hg-gift@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-gift@3x.png)
 }
 
 .history-group li .history[data-visual=expired] .pictogram:after {
-    background-image: url(/responsive/_assets/img/pictogram/picto-hg-gone@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-gone@3x.png)
 }
 
 .history-group li .history[data-visual=fnb] .pictogram:after {
-    background-image: url(/responsive/_assets/img/pictogram/picto-hg-cutlery@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-cutlery@3x.png)
 }
 
 .history-group li .history[data-visual=activity] .pictogram:after {
-    background-image: url(/responsive/_assets/img/pictogram/picto-hg-map@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-map@3x.png)
 }
 
 .history-group li .history[data-visual=golf] .pictogram:after {
-    background-image: url(/responsive/_assets/img/pictogram/picto-hg-golf@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-golf@3x.png)
 }
 
 .history-group li .history[data-visual=hotel] .pictogram:after {
-    background-image: url(/responsive/_assets/img/pictogram/picto-hg-bed@3x.png)
+    background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-bed@3x.png)
 }
 
 .history-group li:first-of-type {
@@ -4837,7 +4837,7 @@ header {
         display: block;
         width: 14px;
         height: 14px;
-        background-image: url("/responsive/_assets/img/pictogram/picto-xs-helper-error@3x.png");
+        background-image: url("/rc/responsive/_assets/img/pictogram/picto-xs-helper-error@3x.png");
         background-size: 100%
     }
 
@@ -4910,7 +4910,7 @@ header {
         width: 20px;
         height: 20px;
         background-size: 100%;
-        background-image: url(/responsive/_assets/img/pictogram/picto-md-dismiss@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-md-dismiss@3x.png)
     }
 
     a.cta, button.cta, button.more {
@@ -4956,11 +4956,11 @@ header {
     }
 
     [data-type=membership-summary] button.flipper .pictogram {
-        background-image: url("/responsive/_assets/img/pictogram/picto-md-barcode@3x.png")
+        background-image: url("/rc/responsive/_assets/img/pictogram/picto-md-barcode@3x.png")
     }
 
     [data-type=membership-cards] button.flipper .pictogram {
-        background-image: url("/responsive/_assets/img/pictogram/picto-md-turn@3x.png")
+        background-image: url("/rc/responsive/_assets/img/pictogram/picto-md-turn@3x.png")
     }
 
     .form-group {
@@ -5086,7 +5086,7 @@ header {
         align-self: center;
         width: 16px;
         height: 16px;
-        background-image: url("/responsive/_assets/img/pictogram/picto-sm-help@3x.png");
+        background-image: url("/rc/responsive/_assets/img/pictogram/picto-sm-help@3x.png");
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 100% 100%
@@ -5414,7 +5414,7 @@ header {
         width: 20px;
         height: 20px;
         margin: 0 auto 4px auto;
-        background-image: url("/responsive/_assets/img/pictogram/picto-md-check@3x.png");
+        background-image: url("/rc/responsive/_assets/img/pictogram/picto-md-check@3x.png");
         background-repeat: no-repeat;
         background-size: 100%;
         filter: invert(1)
@@ -5732,7 +5732,7 @@ header {
     }.module-block .contents .body[data-contain=diff] .chart .log-line {
          position: absolute;
          inset: 0;
-         background: url(/responsive/_assets/img/etc/log-line.svg);
+         background: url(/rc/responsive/_assets/img/etc/log-line.svg);
          background-size: 100%
      }
 
@@ -6644,7 +6644,7 @@ header {
     }
 
     .module-block[data-type=welcome] .backdrop {
-        background-image: url("/responsive/_assets/img/backdrop/backdrop-welcome@3x.png")
+        background-image: url("/rc/responsive/_assets/img/backdrop/backdrop-welcome@3x.png")
     }
 
     .module-block[data-type=welcome] .contents {
@@ -6693,23 +6693,23 @@ header {
     }
 
     .module-block[data-type=welcome] .contents .body .swiper .swiper-wrapper .swiper-slide.slide-1 {
-        background-image: url("/responsive/_assets/img/hero/hero-welcome-1@3x.png")
+        background-image: url("/rc/responsive/_assets/img/hero/hero-welcome-1@3x.png")
     }
 
     .module-block[data-type=welcome] .contents .body .swiper .swiper-wrapper .swiper-slide.slide-2 {
-        background-image: url("/responsive/_assets/img/hero/hero-welcome-2@3x.png")
+        background-image: url("/rc/responsive/_assets/img/hero/hero-welcome-2@3x.png")
     }
 
     .module-block[data-type=welcome] .contents .body .swiper .swiper-wrapper .swiper-slide.slide-3 {
-        background-image: url("/responsive/_assets/img/hero/hero-welcome-3@3x.png")
+        background-image: url("/rc/responsive/_assets/img/hero/hero-welcome-3@3x.png")
     }
 
     .module-block[data-type=welcome] .contents .body .swiper .swiper-wrapper .swiper-slide.slide-4 {
-        background-image: url("/responsive/_assets/img/hero/hero-welcome-4@3x.png")
+        background-image: url("/rc/responsive/_assets/img/hero/hero-welcome-4@3x.png")
     }
 
     .module-block[data-type=welcome] .contents .body .swiper .swiper-wrapper .swiper-slide.slide-5 {
-        background-image: url("/responsive/_assets/img/hero/hero-welcome-5@3x.png")
+        background-image: url("/rc/responsive/_assets/img/hero/hero-welcome-5@3x.png")
     }
 
     .module-block[data-type=welcome] .contents .tail .cta {
@@ -7029,7 +7029,7 @@ header {
     }
 
     .module-block[data-type=membership][data-tier=lv1] .backdrop {
-        background-image: url("/responsive/_assets/img/backdrop/backdrop-tier-lv1@3x.png")
+        background-image: url("/rc/responsive/_assets/img/backdrop/backdrop-tier-lv1@3x.png")
     }
 
     .module-block[data-type=membership][data-tier=lv1] .panel[data-type=membership-summary] .head strong {
@@ -7037,7 +7037,7 @@ header {
     }
 
     .module-block[data-type=membership][data-tier=lv1] .panel[data-type=membership-summary] .body .tier {
-        background-image: url("/responsive/_assets/img/tier/tier-lv1@3x.png")
+        background-image: url("/rc/responsive/_assets/img/tier/tier-lv1@3x.png")
     }
 
     .module-block[data-type=membership][data-tier=lv1] .panel[data-type=membership-summary] .tail dl dd {
@@ -7050,7 +7050,7 @@ header {
     }
 
     .module-block[data-type=membership][data-tier=lv2] .backdrop {
-        background-image: url("/responsive/_assets/img/backdrop/backdrop-tier-lv4@3x.png")
+        background-image: url("/rc/responsive/_assets/img/backdrop/backdrop-tier-lv4@3x.png")
     }
 
     .module-block[data-type=membership][data-tier=lv2] .panel[data-type=membership-summary] .head strong {
@@ -7058,7 +7058,7 @@ header {
     }
 
     .module-block[data-type=membership][data-tier=lv2] .panel[data-type=membership-summary] .body .tier {
-        background-image: url("/responsive/_assets/img/tier/tier-lv2@3x.png")
+        background-image: url("/rc/responsive/_assets/img/tier/tier-lv2@3x.png")
     }
 
     .module-block[data-type=membership][data-tier=lv2] .panel[data-type=membership-summary] .tail dl dd {
@@ -7071,7 +7071,7 @@ header {
     }
 
     .module-block[data-type=membership][data-tier=lv3] .backdrop {
-        background-image: url("/responsive/_assets/img/backdrop/backdrop-tier-lv3@3x.png")
+        background-image: url("/rc/responsive/_assets/img/backdrop/backdrop-tier-lv3@3x.png")
     }
 
     .module-block[data-type=membership][data-tier=lv3] .panel[data-type=membership-summary] .head strong {
@@ -7079,7 +7079,7 @@ header {
     }
 
     .module-block[data-type=membership][data-tier=lv3] .panel[data-type=membership-summary] .body .tier {
-        background-image: url("/responsive/_assets/img/tier/tier-lv3@3x.png")
+        background-image: url("/rc/responsive/_assets/img/tier/tier-lv3@3x.png")
     }
 
     .module-block[data-type=membership][data-tier=lv3] .panel[data-type=membership-summary] .tail dl dd {
@@ -7092,7 +7092,7 @@ header {
     }
 
     .module-block[data-type=membership][data-tier=lv4] .backdrop {
-        background-image: url("/responsive/_assets/img/backdrop/backdrop-tier-lv4@3x.png")
+        background-image: url("/rc/responsive/_assets/img/backdrop/backdrop-tier-lv4@3x.png")
     }
 
     .module-block[data-type=membership][data-tier=lv4] .panel[data-type=membership-summary] .head strong {
@@ -7100,7 +7100,7 @@ header {
     }
 
     .module-block[data-type=membership][data-tier=lv4] .panel[data-type=membership-summary] .body .tier {
-        background-image: url("/responsive/_assets/img/tier/tier-lv4@3x.png")
+        background-image: url("/rc/responsive/_assets/img/tier/tier-lv4@3x.png")
     }
 
     .module-block[data-type=membership][data-tier=lv4] .panel[data-type=membership-summary] .tail dl dd {
@@ -7113,7 +7113,7 @@ header {
     }
 
     .module-block[data-type=membership][data-tier=lv5] .backdrop {
-        background-image: url("/responsive/_assets/img/backdrop/backdrop-tier-lv5@3x.png")
+        background-image: url("/rc/responsive/_assets/img/backdrop/backdrop-tier-lv5@3x.png")
     }
 
     .module-block[data-type=membership][data-tier=lv5] .panel[data-type=membership-summary] .head strong {
@@ -7121,7 +7121,7 @@ header {
     }
 
     .module-block[data-type=membership][data-tier=lv5] .panel[data-type=membership-summary] .body .tier {
-        background-image: url("/responsive/_assets/img/tier/tier-lv5@3x.png")
+        background-image: url("/rc/responsive/_assets/img/tier/tier-lv5@3x.png")
     }
 
     .module-block[data-type=membership][data-tier=lv5] .panel[data-type=membership-summary] .tail dl dd {
@@ -7258,7 +7258,7 @@ header {
         width: 20px;
         height: 20px;
         background-size: 100%;
-        background-image: url("/responsive/_assets/img/pictogram/picto-md-back@3x.png");
+        background-image: url("/rc/responsive/_assets/img/pictogram/picto-md-back@3x.png");
         opacity: .7;
         filter: invert(1);
         -webkit-filter: invert(1)
@@ -7290,7 +7290,7 @@ header {
     }
 
     .module-block[data-type=utility][data-view=home] .contents .head a .pictogram {
-        background-image: url("/responsive/_assets/img/pictogram/picto-md-home@3x.png")
+        background-image: url("/rc/responsive/_assets/img/pictogram/picto-md-home@3x.png")
     }
 
     .module-block[data-type=history] .contents .head h2 strong {
@@ -7435,7 +7435,7 @@ header {
         width: 22px;
         height: 22px;
         background-size: 100%;
-        background-image: url(/responsive/_assets/img/pictogram/picto-lg-reset@3x.png);
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-lg-reset@3x.png);
         filter: invert(1);
         -webkit-filter: invert(1)
     }
@@ -7466,7 +7466,7 @@ header {
         content: "";
         display: flex;
         width: 100%;
-        background-image: url(/responsive/_assets/img/stamp/ornament-title.png);
+        background-image: url(/rc/responsive/_assets/img/stamp/ornament-title.png);
         background-size: contain;
         height: 7px
     }
@@ -7493,7 +7493,7 @@ header {
     .module-block[data-type=stamp] .contents .body .stamp-slot {
         margin-top: 40px;
         position: relative;
-        background-image: url(/responsive/_assets/img/stamp/backdrop.png);
+        background-image: url(/rc/responsive/_assets/img/stamp/backdrop.png);
         background-size: cover;
         border-radius: 12px;
         padding: 10px
@@ -7529,12 +7529,12 @@ header {
 
     .module-block[data-type=stamp] .contents .body .stamp-slot .swiper button.prev {
         left: 4px;
-        background-image: url(/responsive/_assets/img/pictogram/picto-lg-prev@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-lg-prev@3x.png)
     }
 
     .module-block[data-type=stamp] .contents .body .stamp-slot .swiper button.next {
         right: 4px;
-        background-image: url(/responsive/_assets/img/pictogram/picto-lg-next@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-lg-next@3x.png)
     }
 
     .module-block[data-type=stamp] .contents .body .stamp-slot .swiper .swiper-pagination {
@@ -7573,7 +7573,7 @@ header {
         flex-shrink: 1;
         width: 75px;
         height: 75px;
-        background-image: url(/responsive/_assets/img/stamp/slot.png);
+        background-image: url(/rc/responsive/_assets/img/stamp/slot.png);
         background-size: cover
     }
 
@@ -7585,23 +7585,23 @@ header {
         top: 50%;
         transform: translate(-50%, -50%);
         background-size: 100%;
-        background-image: url(/responsive/_assets/img/stamp/stamp-on.png)
+        background-image: url(/rc/responsive/_assets/img/stamp/stamp-on.png)
     }
 
     .module-block[data-type=stamp] .contents .body .stamp-slot ul li:nth-child(6) {
-        background-image: url(/responsive/_assets/img/stamp/slot-goal-1.png)
+        background-image: url(/rc/responsive/_assets/img/stamp/slot-goal-1.png)
     }
 
     .module-block[data-type=stamp] .contents .body .stamp-slot ul li:nth-child(6) span {
-        background-image: url(/responsive/_assets/img/stamp/stamp-goal.png)
+        background-image: url(/rc/responsive/_assets/img/stamp/stamp-goal.png)
     }
 
     .module-block[data-type=stamp] .contents .body .stamp-slot ul li:nth-child(12) {
-        background-image: url(/responsive/_assets/img/stamp/slot-goal-2.png)
+        background-image: url(/rc/responsive/_assets/img/stamp/slot-goal-2.png)
     }
 
     .module-block[data-type=stamp] .contents .body .stamp-slot ul li:nth-child(12) span {
-        background-image: url(/responsive/_assets/img/stamp/stamp-goal.png)
+        background-image: url(/rc/responsive/_assets/img/stamp/stamp-goal.png)
     }
 
     .module-block[data-type=stamp] .contents .body .stamp-slot dl.membership {
@@ -7660,7 +7660,7 @@ header {
         height: 110px;
         right: 34px;
         top: -55px;
-        background-image: url(/responsive/_assets/img/stamp/ornament-stamp.png);
+        background-image: url(/rc/responsive/_assets/img/stamp/ornament-stamp.png);
         background-size: 100%
     }
 
@@ -7671,7 +7671,7 @@ header {
     .module-block[data-view=available] .contents {
         justify-content: space-between;
         gap: 20px;
-        background-image: url("/responsive/_assets/img/inhouse/available.png");
+        background-image: url("/rc/responsive/_assets/img/inhouse/available.png");
         background-size: 100%
     }
 
@@ -7763,7 +7763,7 @@ header {
     }
 
     .module-block[data-view=remain] .contents {
-        background-image: url("/responsive/_assets/img/inhouse/remain.png");
+        background-image: url("/rc/responsive/_assets/img/inhouse/remain.png");
         background-size: 100%
     }
 
@@ -7967,7 +7967,7 @@ header {
         width: 20px;
         height: 20px;
         background-size: 100%;
-        background-image: url(/responsive/_assets/img/pictogram/picto-md-drivers@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-md-drivers@3x.png)
     }
 
     .module-block[data-type=gift-view] .contents canvas#congrats, .module-block[data-type=gift-view-expired] .contents canvas#congrats, .module-block[data-type=gift-view-rejected] .contents canvas#congrats, .module-block[data-type=gift-view-accepted] .contents canvas#congrats, .module-block[data-type=history] .contents canvas#congrats, .module-block[data-type=history-empty] .contents canvas#congrats {
@@ -8138,7 +8138,7 @@ header {
         width: 20px;
         height: 20px;
         background-size: 100%;
-        background-image: url(/responsive/_assets/img/pictogram/picto-md-gift@3x.png);
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-md-gift@3x.png);
         filter: invert(1)
     }
 
@@ -8505,12 +8505,12 @@ header {
 
     .windows[data-type=driver] .contents .body button.next {
         right: 16px;
-        background-image: url("/responsive/_assets/img/pictogram/picto-lg-next@3x.png")
+        background-image: url("/rc/responsive/_assets/img/pictogram/picto-lg-next@3x.png")
     }
 
     .windows[data-type=driver] .contents .body button.prev {
         left: 16px;
-        background-image: url("/responsive/_assets/img/pictogram/picto-lg-prev@3x.png")
+        background-image: url("/rc/responsive/_assets/img/pictogram/picto-lg-prev@3x.png")
     }
 
     .windows[data-type=driver] .contents .body img {
@@ -8607,7 +8607,7 @@ header {
         display: block;
         width: 167px;
         height: 16px;
-        background-image: url(/responsive/_assets/img/site-brand/site-brand@3x.png);
+        background-image: url(/rc/responsive/_assets/img/site-brand/site-brand@3x.png);
         background-size: 100%
     }
 
@@ -8652,7 +8652,7 @@ header {
         background-size: 100% 100%;
         -webkit-filter: invert(1);
         filter: invert(1);
-        background-image: url(/responsive/_assets/img/pictogram/picto-hg-dock-dot@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-dock-dot@3x.png)
     }
 
     .dock > ul > li > .rim ul {
@@ -8687,15 +8687,15 @@ header {
     }
 
     .dock > ul > li > a.home .pictogram, .dock > ul > li > button.home .pictogram {
-        background-image: url(/responsive/_assets/img/pictogram/picto-hg-dock-home@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-dock-home@3x.png)
     }
 
     .dock > ul > li > a.gift .pictogram, .dock > ul > li > button.gift .pictogram {
-        background-image: url(/responsive/_assets/img/pictogram/picto-hg-dock-gift@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-dock-gift@3x.png)
     }
 
     .dock > ul > li > a.history .pictogram, .dock > ul > li > button.history .pictogram {
-        background-image: url(/responsive/_assets/img/pictogram/picto-hg-dock-history@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-dock-history@3x.png)
     }
 
     .dock .portal {
@@ -8728,11 +8728,11 @@ header {
     }
 
     .dock .portal button span.pictogram.ananti {
-        background-image: url("/responsive/_assets/img/layout/portal-ant-lg.png")
+        background-image: url("/rc/responsive/_assets/img/layout/portal-ant-lg.png")
     }
 
     .dock .portal button span.pictogram.eternaljourney {
-        background-image: url("/responsive/_assets/img/layout/portal-ej-lg.png")
+        background-image: url("/rc/responsive/_assets/img/layout/portal-ej-lg.png")
     }
 
     .dock .portal > ul {
@@ -8773,11 +8773,11 @@ header {
     }
 
     .dock .portal > ul li a.ananti:before {
-        background-image: url("/responsive/_assets/img/layout/portal-ant.png")
+        background-image: url("/rc/responsive/_assets/img/layout/portal-ant.png")
     }
 
     .dock .portal > ul li a.eternaljourney:before {
-        background-image: url("/responsive/_assets/img/layout/portal-ej.png")
+        background-image: url("/rc/responsive/_assets/img/layout/portal-ej.png")
     }
 
     .dock .portal > ul:before {
@@ -8888,7 +8888,7 @@ header {
         width: 28px;
         height: 28px;
         background-size: 100%;
-        background-image: url(/responsive/_assets/img/pictogram/picto-lg-dock-top@3x.png);
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-lg-dock-top@3x.png);
         filter: invert(1);
         -webkit-filter: invert(1)
     }
@@ -8979,7 +8979,7 @@ header {
         top: 50%;
         transform: translate(-50%, -50%);
         background-size: 100%;
-        background-image: url("/responsive/_assets/img/pictogram/picto-lg-dock-dot@3x.png");
+        background-image: url("/rc/responsive/_assets/img/pictogram/picto-lg-dock-dot@3x.png");
         -webkit-filter: invert(1);
         filter: invert(1)
     }
@@ -9023,7 +9023,7 @@ header {
     }
 
     .quickLink > .link a.ananti span.pictogram {
-        background-image: url("/responsive/_assets/img/quickLink/quickLink-ant@3x.png")
+        background-image: url("/rc/responsive/_assets/img/quickLink/quickLink-ant@3x.png")
     }
 
     .quickLink > .link a.eternaljourney {
@@ -9031,11 +9031,11 @@ header {
     }
 
     .quickLink > .link a.eternaljourney span.pictogram {
-        background-image: url("/responsive/_assets/img/quickLink/quickLink-ej@3x.png")
+        background-image: url("/rc/responsive/_assets/img/quickLink/quickLink-ej@3x.png")
     }
 
     .quickLink > .link a.myRim span.pictogram {
-        background-image: url("/responsive/_assets/img/quickLink/quickLink-myRim@3x.png")
+        background-image: url("/rc/responsive/_assets/img/quickLink/quickLink-myRim@3x.png")
     }
 
     .quickLink > .link a.rimClub, .quickLink > .link a.respect, .quickLink > .link a.gift {
@@ -9183,31 +9183,31 @@ header {
     }
 
     .history-group li .history[data-visual=mall] .pictogram:after {
-        background-image: url(/responsive/_assets/img/pictogram/picto-hg-cart@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-cart@3x.png)
     }
 
     .history-group li .history[data-visual=gift] .pictogram:after {
-        background-image: url(/responsive/_assets/img/pictogram/picto-hg-gift@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-gift@3x.png)
     }
 
     .history-group li .history[data-visual=expired] .pictogram:after {
-        background-image: url(/responsive/_assets/img/pictogram/picto-hg-gone@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-gone@3x.png)
     }
 
     .history-group li .history[data-visual=fnb] .pictogram:after {
-        background-image: url(/responsive/_assets/img/pictogram/picto-hg-cutlery@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-cutlery@3x.png)
     }
 
     .history-group li .history[data-visual=activity] .pictogram:after {
-        background-image: url(/responsive/_assets/img/pictogram/picto-hg-map@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-map@3x.png)
     }
 
     .history-group li .history[data-visual=golf] .pictogram:after {
-        background-image: url(/responsive/_assets/img/pictogram/picto-hg-golf@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-golf@3x.png)
     }
 
     .history-group li .history[data-visual=hotel] .pictogram:after {
-        background-image: url(/responsive/_assets/img/pictogram/picto-hg-bed@3x.png)
+        background-image: url(/rc/responsive/_assets/img/pictogram/picto-hg-bed@3x.png)
     }
 
     .history-group li:first-of-type {
