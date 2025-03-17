@@ -1,0 +1,1475 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, viewport-fit=cover" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <title>RIM CLUB, ANANTI.</title>
+        <link rel="icon" href="../_assets/img/browser/favicon.ico" />
+        <link rel="icon" sizes="16x16" href="../_assets/img/browser/favicon-16x16.png" />
+        <link rel="icon" sizes="32x32" href="../_assets/img/browser/favicon-32x32.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../_assets/img/browser/apple-touch-icon.png" />
+        <link href="../_assets/css/styles.min.css" rel="stylesheet" />
+        <link href="../_assets/css/world.min.css" rel="stylesheet" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="description" content="SEO TEXT" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="../_assets/img/browser/mstile-144x144.png" />
+        <meta property="og:site_name" content="site name" />
+        <meta property="og:url" content="page url" />
+        <meta property="og:title" content="title" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="img url" />
+        <meta property="og:description" content="page descriptions" />
+        <meta name="article:author" content="authors Name" />
+        <script src="../_assets/js/script.lib.min.js"></script>
+        <script defer src="../_assets/js/world.min.js"></script>
+        <!--로컬 테스트용 스크립트, 개발반영 X-->
+        <script defer src="../_assets/js/script.dev.min.js"></script>
+    </head>
+    <!--@COMPONENT-PIN-->
+    <!--각 페이지별 흐름을 제어하기 위해 추가된 프로퍼티입니다.-->
+    <!--이번 림 소개 페이지 통합건처럼, 특정 페이지가 확장/추가 될 때 중요한 역할을 하게 됩니다.-->
+    <!--만약 일정상 로직 변경이 어렵다면 말씀해주세요. 대안은 header, footer, dock 요소에 각각 .dark 클래스를 붙이는 방법으로 진행됩니다. 좋은 방법은 아닙니다.-->
+    <body data-component-pin="dark">
+        <header class="header" id="header">
+            <p class="site-brand">
+                <a role="link" href="../home/home-welcome.html">
+                    <span class="pictogram"></span>
+                    <span class="label">RIM CLUB</span>
+                </a>
+            </p>
+            <div class="quickLink" id="quickLink">
+                <button type="button">
+                    <span class="pictogram"></span>
+                    <span class="label">아난티 서비스 바로가기</span>
+                </button>
+                <div class="link">
+                    <a class="ananti" href="./">
+                        <span class="pictogram"></span>
+                        <span class="label">아난티</span>
+                    </a>
+                    <a class="eternaljourney" href="./">
+                        <span class="pictogram"></span>
+                        <span class="label">이터널저니</span>
+                    </a>
+                    <a class="myRim" href="./">
+                        <span class="pictogram"></span>
+                        <span class="label">마이 림</span>
+                    </a>
+                    <hr />
+                    <a class="rimClub" href="./">림 클럽</a>
+                    <a class="respect" href="./">리스펙</a>
+                    <a class="gift" href="./">림 선물하기</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="membership-section section-1">
+                <div class="container" data-anim="true" data-anim-stagger="true">
+                    <h1 class="membership-title" data-textanim-1>
+                        ‘내 사람’에게는
+                        <br />
+                        다 주고 싶은
+                        <br />
+                        아난티 림 저니.
+                    </h1>
+                    <p class="membership-text" data-textanim-1>4개의 등급.</p>
+                </div>
+            </section>
+            <section class="membership-section section-2">
+                <div class="container">
+                    <div class="row row-cols-dt-5 gx-dt-25">
+                        <a class="membership-card-btn btn-rim-1 modal-trigger" href="#membershipRim1" data-modal="true">
+                            <div class="membership-card" data-imganim-2 data-anim-card>
+                                <div class="membership-front"><img class="membership-img" src="../_assets/img/world/intro/rim-card-1-front.png" alt="RIM.1" /></div>
+                                <div class="membership-back"><img class="membership-img" src="../_assets/img/world/intro/rim-card-1-back.png" alt="RIM.1" /></div>
+                            </div>
+                            <p class="membership-card-text" data-imganim-2><img src="../_assets/img/world/intro/rim-card-1-text.png" alt="RIM.1" /></p>
+                        </a>
+                        <a class="membership-card-btn btn-rim-2 modal-trigger" href="#membershipRim2" data-modal="true">
+                            <div class="membership-card" data-imganim-2 data-anim-card>
+                                <div class="membership-front"><img class="membership-img" src="../_assets/img/world/intro/rim-card-2-front.png" alt="RIM.2" /></div>
+                                <div class="membership-back"><img class="membership-img" src="../_assets/img/world/intro/rim-card-2-back.png" alt="RIM.2" /></div>
+                            </div>
+                            <p class="membership-card-text" data-imganim-2><img src="../_assets/img/world/intro/rim-card-2-text.png" alt="RIM.2" /></p>
+                        </a>
+                        <a class="membership-card-btn btn-rim-3 modal-trigger" href="#membershipRimK" data-modal="true">
+                            <div class="membership-card" data-imganim-2 data-anim-card>
+                                <div class="membership-front"><img class="membership-img" src="../_assets/img/world/intro/rim-card-k-front.png" alt="RIM.K" /></div>
+                                <div class="membership-back"><img class="membership-img" src="../_assets/img/world/intro/rim-card-k-back.png" alt="RIM.K" /></div>
+                            </div>
+                            <p class="membership-card-text" data-imganim-2><img src="../_assets/img/world/intro/rim-card-k-text.png" alt="RIM.3" /></p>
+                        </a>
+                        <a class="membership-card-btn btn-rim-4 modal-trigger" href="#membershipRimQ" data-modal="true">
+                            <div class="membership-card" data-imganim-2 data-anim-card>
+                                <div class="membership-front"><img class="membership-img" src="../_assets/img/world/intro/rim-card-q-front.png" alt="RIM.Q" /></div>
+                                <div class="membership-back"><img class="membership-img" src="../_assets/img/world/intro/rim-card-q-back.png" alt="RIM.Q" /></div>
+                            </div>
+                            <p class="membership-card-text" data-imganim-2><img src="../_assets/img/world/intro/rim-card-q-text.png" alt="RIM.4" /></p>
+                        </a>
+                        <a class="membership-card-btn btn-rim-5 modal-trigger" href="#membershipRR" data-modal="true">
+                            <div class="membership-card" data-imganim-2 data-anim-card>
+                                <div class="membership-front"><img class="membership-img" src="../_assets/img/world/intro/rim-card-rr-front.png" alt="RIM.Q" /></div>
+                                <div class="membership-back"><img class="membership-img" src="../_assets/img/world/intro/rim-card-rr-back.png" alt="RIM.Q" /></div>
+                            </div>
+                            <p class="membership-card-text" data-imganim-2><img src="../_assets/img/world/intro/rim-card-rr-text.png" alt="RIM.5" /></p>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="membership-section section-3">
+                <div class="container">
+                    <div class="row row-cols-dt-2 gx-dt-100" data-anim="true" data-anim-stagger="true">
+                        <div class="membership-col" data-textanim-1>
+                            <h1 class="membership-title">
+                                아난티 림 저니를
+                                <br />
+                                경험하기 위한 시작은.
+                            </h1>
+                            <a class="membership-link" href="../home/home-welcome.html">
+                                아난티 림 클럽 가입하기
+                                <i class="icon"></i>
+                            </a>
+                        </div>
+                        <div class="membership-col" data-textanim-1>
+                            <h1 class="membership-title">
+                                좋은 건 ‘좋은 사람’끼리
+                                <br />
+                                나눠야 제맛!
+                            </h1>
+                            <a class="membership-link" href="../gift/gift.html">
+                                아난티 RIM 선물하기
+                                <i class="icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="membership-modal modal" id="membershipRim1">
+                <div class="modal-container container" data-scroll-container>
+                    <button class="modal-close" type="button">닫기</button>
+                    <div class="row">
+                        <div class="col-dt-4"><img class="card-img" src="../_assets/img/world/intro/rim-card-1-front.png" alt="RIM.1" /></div>
+                        <div class="col-dt-8">
+                            <img class="card-name" src="../_assets/img/world/intro/rim-card-1-text.png" alt="RIM.1" />
+                            <div class="tab-pane active" id="membershipRim1-top-1">
+                                <h3 class="card-title rim-color-1">호텔 림 저니 1</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRim1-top-2">
+                                <h3 class="card-title rim-color-1">호텔 림 저니 2</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRim1-top-3">
+                                <h3 class="card-title rim-color-1">호텔 림 저니 3</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRim1-top-4">
+                                <h3 class="card-title rim-color-1">호텔 림 저니 4</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRim1-top-5">
+                                <h3 class="card-title rim-color-1">호텔 림 저니 5</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRim1-top-6">
+                                <h3 class="card-title rim-color-1">호텔 림 저니 6</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRim1-top-7">
+                                <h3 class="card-title rim-color-1">호텔 림 저니 7</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRim1-top-8">
+                                <h3 class="card-title rim-color-1">호텔 림 저니 8</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRim1-top-9">
+                                <h3 class="card-title rim-color-1">호텔 림 저니 9</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRim1-top-10">
+                                <h3 class="card-title rim-color-1">호텔 림 저니 10</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="row gx-5 gy-10 gx-dt-15 gy-dt-25 card-btn-list rim-color-1 tab" data-tab="true" data-tab-scroll="true">
+                                <div class="col-auto tab-item active"><a class="tab-btn" href="#membershipRim1-1" data-content-targets="membershipRim1-1, membershipRim1-top-1">호텔 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRim1-2" data-content-targets="membershipRim1-2, membershipRim1-top-2">레스토랑 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRim1-3" data-content-targets="membershipRim1-3, membershipRim1-top-3">이터널저니 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRim1-4" data-content-targets="membershipRim1-4, membershipRim1-top-4">골프클럽 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRim1-5" data-content-targets="membershipRim1-5, membershipRim1-top-5">컬처&두댓 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRim1-6" data-content-targets="membershipRim1-6, membershipRim1-top-6">펜트하우스 멤버 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRim1-7" data-content-targets="membershipRim1-7, membershipRim1-top-7">레지던스 멤버 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRim1-8" data-content-targets="membershipRim1-8, membershipRim1-top-8">피트니스 멤버 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRim1-9" data-content-targets="membershipRim1-9, membershipRim1-top-9">웨딩&소셜 림 저니</a></div>
+                                <div class="col-auto tab-item">
+                                    <a class="tab-btn rim-rr" href="#membershipRim1-10" data-content-targets="membershipRim1-10, membershipRim1-top-10"><img src="../_assets/img/world/intro/membership-icon-rr.png" alt="RR" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane active" id="membershipRim1-1">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                                <p class="membership-helper rim-color-1">* 아난티 펜트하우스 분양 회원만 적용됩니다.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRim1-2">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRim1-3">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRim1-4">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRim1-5">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRim1-6">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRim1-7">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRim1-8">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRim1-9">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRim1-10">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-1" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="membership-modal modal" id="membershipRim2">
+                <div class="modal-container container" data-scroll-container>
+                    <button class="modal-close" type="button">닫기</button>
+                    <div class="row">
+                        <div class="col-dt-4"><img class="card-img" src="../_assets/img/world/intro/rim-card-2-front.png" alt="RIM.2" /></div>
+                        <div class="col-dt-8">
+                            <img class="card-name" src="../_assets/img/world/intro/rim-card-2-text.png" alt="RIM.2" />
+                            <div class="tab-pane active" id="membershipRim2-top-1">
+                                <h3 class="card-title rim-color-2">호텔 림 저니 1</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRim2-top-2">
+                                <h3 class="card-title rim-color-2">호텔 림 저니 2</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRim2-top-3">
+                                <h3 class="card-title rim-color-2">호텔 림 저니 3</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRim2-top-4">
+                                <h3 class="card-title rim-color-2">호텔 림 저니 4</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRim2-top-5">
+                                <h3 class="card-title rim-color-2">호텔 림 저니 5</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="row gx-5 gy-10 gx-dt-15 gy-dt-25 card-btn-list rim-color-2 tab" data-tab="true" data-tab-scroll="true">
+                                <div class="col-auto tab-item active"><a class="tab-btn" href="#membershipRim2-1" data-content-targets="membershipRim2-1, membershipRim2-top-1">호텔 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRim2-2" data-content-targets="membershipRim2-2, membershipRim2-top-2">레스토랑 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRim2-3" data-content-targets="membershipRim2-3, membershipRim2-top-3">이터널저니 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRim2-4" data-content-targets="membershipRim2-4, membershipRim2-top-4">골프클럽 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRim2-5" data-content-targets="membershipRim2-5, membershipRim2-top-5">컬처&두댓 림 저니</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane active" id="membershipRim2-1">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRim2-2">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRim2-3">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRim2-4">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRim2-5">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-2" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="membership-modal modal" id="membershipRimK">
+                <div class="modal-container container" data-scroll-container>
+                    <button class="modal-close" type="button">닫기</button>
+                    <div class="row">
+                        <div class="col-dt-4"><img class="card-img" src="../_assets/img/world/intro/rim-card-k-front.png" alt="RIM.K" /></div>
+                        <div class="col-dt-8">
+                            <img class="card-name" src="../_assets/img/world/intro/rim-card-k-text.png" alt="RIM.3" />
+                            <div class="tab-pane active" id="membershipRimk-top-1">
+                                <h3 class="card-title rim-color-k">호텔 림 저니 1</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRimk-top-2">
+                                <h3 class="card-title rim-color-k">호텔 림 저니 2</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRimk-top-3">
+                                <h3 class="card-title rim-color-k">호텔 림 저니 3</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="row gx-5 gy-10 gx-dt-15 gy-dt-25 card-btn-list rim-color-k tab" data-tab="true" data-tab-scroll="true">
+                                <div class="col-auto tab-item active"><a class="tab-btn" href="#membershipRimk-1" data-content-targets="membershipRimk-1, membershipRimk-top-1">호텔 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRimk-2" data-content-targets="membershipRimk-2, membershipRimk-top-2">레스토랑 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRimk-3" data-content-targets="membershipRimk-3, membershipRimk-top-3">이터널저니 림 저니</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane active" id="membershipRimk-1">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-k" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-k" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-k" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-k" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRimk-2">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-k" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-k" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRimk-3">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-k" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-k" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-k" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="membership-modal modal" id="membershipRimQ">
+                <div class="modal-container container" data-scroll-container>
+                    <button class="modal-close" type="button">닫기</button>
+                    <div class="row">
+                        <div class="col-dt-4"><img class="card-img" src="../_assets/img/world/intro/rim-card-q-front.png" alt="RIM.Q" /></div>
+                        <div class="col-dt-8">
+                            <img class="card-name" src="../_assets/img/world/intro/rim-card-q-text.png" alt="RIM.Q" />
+                            <div class="tab-pane active" id="membershipRimq-top-1">
+                                <h3 class="card-title rim-color-q">호텔 림 저니 1</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRimq-top-2">
+                                <h3 class="card-title rim-color-q">호텔 림 저니 2</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRimq-top-3">
+                                <h3 class="card-title rim-color-q">호텔 림 저니 3</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRimq-top-4">
+                                <h3 class="card-title rim-color-q">호텔 림 저니 4</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRimq-top-5">
+                                <h3 class="card-title rim-color-q">호텔 림 저니 5</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRimq-top-6">
+                                <h3 class="card-title rim-color-q">호텔 림 저니 6</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRimq-top-7">
+                                <h3 class="card-title rim-color-q">호텔 림 저니 7</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="membershipRimq-top-8">
+                                <h3 class="card-title rim-color-q">호텔 림 저니 8</h3>
+                                <p class="card-text">
+                                    독창적인 아난티 호텔
+                                    <br class="d-dt-none" />
+                                    리스펙을 경험해 보세요.
+                                </p>
+                            </div>
+                            <div class="row gx-5 gy-10 gx-dt-15 gy-dt-25 card-btn-list rim-color-q tab" data-tab="true" data-tab-scroll="true">
+                                <div class="col-auto tab-item active"><a class="tab-btn" href="#membershipRimQ-1" data-content-targets="membershipRimQ-1, membershipRimQ-top-1">호텔 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRimQ-2" data-content-targets="membershipRimQ-2, membershipRimQ-top-2">레스토랑 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRimQ-3" data-content-targets="membershipRimQ-3, membershipRimQ-top-3">이터널저니 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRimQ-4" data-content-targets="membershipRimQ-4, membershipRimQ-top-4">골프클럽 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRimQ-5" data-content-targets="membershipRimQ-5, membershipRimQ-top-5">컬처&두댓 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRimQ-6" data-content-targets="membershipRimQ-6, membershipRimQ-top-6">펜트하우스 멤버 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRimQ-7" data-content-targets="membershipRimQ-7, membershipRimQ-top-7">레지던스 멤버 림 저니</a></div>
+                                <div class="col-auto tab-item"><a class="tab-btn" href="#membershipRimQ-8" data-content-targets="membershipRimQ-8, membershipRimQ-top-8">피트니스 멤버 림 저니</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane active" id="membershipRimQ-1">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRimQ-2">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRimQ-3">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRimQ-4">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRimQ-5">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRimQ-6">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRimQ-7">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    호텔 2박 투숙 시 1,000RIM 적립
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">RIM.1 등급 유지 기간 내 아난티 호텔 2박 투숙 시 1,000RIM 추가 적립 (가입 시 최초 1회)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 시에만 적용</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="membershipRimQ-8">
+                        <div class="card-desc-box">
+                            <div class="row gy-10 gy-dt-40">
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    신규 가입 시 500RIM 증정
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">신규 가입 시 500RIM 증정</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    호텔 5% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">대상 플랫폼: 아난티 앳 부산 코브, 아난티 앳 부산 빌라쥬, 아난티 앳 강남, 아난티 앳 남해</li>
+                                    <li class="card-desc-text">본인 이용 시 할인가 적용 가능 (예약자 본인 체크인 필수)</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">표준 요금 기준 할인 (패키지, 프로모션 예약 할인 불가)</li>
+                                    <li class="card-desc-text">연박 시 동일 할인가 적용 (일 1객실에 한함)</li>
+                                    <li class="card-desc-text">아난티 홈페이지 예약 (선결제 필수)</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까지</li>
+                                </ul>
+                                <button class="col-dt-4 card-desc-title collapse-trigger rim-color-q" type="button" data-collapse-type="default">
+                                    워터하우스 2인 10% 할인
+                                    <i class="icon"></i>
+                                </button>
+                                <ul class="col-dt-8 card-desc-list collapse">
+                                    <li class="card-desc-text">사용처: 워터하우스(아난티 코브)</li>
+                                    <li class="card-desc-text">본인 확인 시 최대 2인까지 입장료 10% 할인</li>
+                                    <li class="card-desc-text">승급 시 1회 발급</li>
+                                    <li class="card-desc-text">유효기간: 매년 2월 말일까</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="membership-modal modal" id="membershipRR">
+                <div class="modal-container container" data-scroll-container>
+                    <button class="modal-close" type="button">닫기</button>
+                    <div class="row">
+                        <div class="col-dt-4"><img class="card-img" src="../_assets/img/world/intro/rim-card-rr-front.png" alt="RR" /></div>
+                        <div class="col-dt-8">
+                            <img class="card-name" src="../_assets/img/world/intro/rim-card-rr-text.png" alt="RR" />
+                            <img class="card-name-primary" src="../_assets/img/world/intro/rim-card-rr-title.png" alt="RIM RESPECT" />
+                            <p class="card-text">
+                                RIM.Q 멤버 중
+                                <br class="d-dt-none" />
+                                <strong>오직 100명에게만</strong>
+                                주어지는 RIM. RESPECT
+                                <br />
+                                아난티가 드리는 최고의 리스펙을
+                                <br class="d-dt-none" />
+                                경험해 보세요.
+                            </p>
+                            <div class="card-symbol">
+                                <div class="card-symbol-img"><img src="../_assets/img/world/intro/rim-card-rr-symbol.png" alt="RR" /></div>
+                            </div>
+                            <div class="card-desc-box">
+                                <div class="row gy-10 gy-dt-40">
+                                    <strong class="col-dt-4 card-desc-title rim-color-rr">RIM. RESPECT 퍼스널 서비스</strong>
+                                    <ul class="col-dt-8 card-desc-list">
+                                        <li class="card-desc-text">투숙 시 프라이빗 체크인, 전용 컨시어지 서비스 (상시)</li>
+                                        <li class="card-desc-text">투숙 시 리스펙 테이블 세팅 (연2회)</li>
+                                    </ul>
+                                    <strong class="col-dt-4 card-desc-title rim-color-rr">플랫폼 무료 주차 & 발레 서비스</strong>
+                                    <ul class="col-dt-8 card-desc-list">
+                                        <li class="card-desc-text">아난티 전 플랫폼 무료 주차 (1인 1대)</li>
+                                        <li class="card-desc-text">
+                                            발레 서비스
+                                            <br />
+                                            (아난티 앳 강남, 아난티 앳 부산 코브 지상 주차장, 빌라쥬 드 아난티 제3주차장)
+                                        </li>
+                                    </ul>
+                                    <strong class="col-dt-4 card-desc-title rim-color-rr">펜트하우스 회원권 할인</strong>
+                                    <ul class="col-dt-8 card-desc-list">
+                                        <li class="card-desc-text">아난티 버틀러팀 문의 (카카오톡 채널)</li>
+                                    </ul>
+                                    <strong class="col-dt-4 card-desc-title rim-color-rr">리스펙 기프트 증정</strong>
+                                    <ul class="col-dt-8 card-desc-list">
+                                        <li class="card-desc-text">
+                                            Ananti Tag | Mini Tag | Parking Pass
+                                            <br />
+                                            승급 시 1회 지급 (무료 재발급 불가)
+                                        </li>
+                                    </ul>
+                                    <strong class="col-dt-4 card-desc-title rim-color-rr">피트니스&사우나 2인 무료 이용</strong>
+                                    <ul class="col-dt-8 card-desc-list">
+                                        <li class="card-desc-text">
+                                            아난티 앳 부산 코브 맥퀸즈 클럽
+                                            <br />
+                                            아난티 앳 강남 에이스피릿오브저니클럽
+                                            <br />
+                                        </li>
+                                        <li class="card-desc-text">월 1회 발급</li>
+                                    </ul>
+                                    <strong class="col-dt-4 card-desc-title rim-color-rr">프라이빗 라운지 2인 무료 이용</strong>
+                                    <ul class="col-dt-8 card-desc-list">
+                                        <li class="card-desc-text">
+                                            아난티 앳 강남 살롱 드 아난티
+                                            <br />
+                                            아난티 앳 부산 코브 맥퀸즈 라운지
+                                            <br />
+                                            아난티 코브 캐비네 드 쁘아쏭
+                                            <br />
+                                            빌라쥬 드 아난티 아난티 치즈 베이글
+                                        </li>
+                                        <li class="card-desc-text">일 1회 발급</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <ul class="card-desc-helper">
+                                <li>
+                                    * RIM. RESPECT은 아난티 펜트하우스, 호텔, 레스토랑, 골프, 워터하우스, 이터널저니 온/오프라인 등 아난티의 다양한 저니를 경험하신 내용
+                                    <br />
+                                    (이용 금액, 이용 수, RIM 적립 등)을 기준으로 존경하는 마음을 담아 선정되었습니다.
+                                </li>
+                                <li>* RIM.RESPECT 멤버는 RIM.Q 리스펙을 포함하여 RIM.RESPECT 리스펙을 추가로 받으실 수 있습니다.</li>
+                                <li>* 아난티 태그는 RIM.RESPECT 태그로 1회만 지급됩니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <nav class="dock" id="dock">
+            <ul>
+                <li>
+                    <div class="rim">
+                        <button type="button">
+                            <span class="pictogram"></span>
+                            <span class="label">림 클럽</span>
+                        </button>
+                        <ul>
+                            <li>
+                                <a class="club" href="../world/world.html">
+                                    <span class="pictogram"></span>
+                                    <span class="label">림 클럽 소개</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="respect" href="../world/world-membership.html">
+                                    <span class="pictogram"></span>
+                                    <span class="label">리스펙</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="signup" href="./">
+                                    <span class="pictogram"></span>
+                                    <span class="label">클럽 가입하기</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="rim" href="../world/world.html">
+                        <span class="pictogram"></span>
+                        <span class="label">림 클럽</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="gift" href="../gift/gift.html">
+                        <span class="pictogram"></span>
+                        <span class="label">선물하기</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="history" href="../history/history.html">
+                        <span class="pictogram"></span>
+                        <span class="label">히스토리</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="home" href="../home/home.html">
+                        <span class="pictogram"></span>
+                        <span class="label">MY RIM</span>
+                    </a>
+                </li>
+                <li>
+                    <div class="portal">
+                        <button role="button">
+                            <span class="pictogram ananti"></span>
+                            <span class="pictogram eternaljourney"></span>
+                        </button>
+                        <ul>
+                            <li><a class="ananti" href="https://ananti.kr/">아난티 바로가기</a></li>
+                            <li><a class="eternaljourney" href="https://eternaljourney.ananti.kr/">이터널저니 바로가기</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <button class="top" id="top">
+            <span class="label">화면 최상단으로 이동</span>
+            <span class="pictogram"></span>
+        </button>
+    </body>
+</html>
