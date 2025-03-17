@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, viewport-fit=cover" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <title>RIM CLUB, ANANTI.</title>
+        <link rel="icon" href="../_assets/img/browser/favicon.ico" />
+        <link rel="icon" sizes="16x16" href="../_assets/img/browser/favicon-16x16.png" />
+        <link rel="icon" sizes="32x32" href="../_assets/img/browser/favicon-32x32.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../_assets/img/browser/apple-touch-icon.png" />
+        <link href="../_assets/css/styles.min.css" rel="stylesheet" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="description" content="SEO TEXT" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="../_assets/img/browser/mstile-144x144.png" />
+        <meta property="og:site_name" content="site name" />
+        <meta property="og:url" content="page url" />
+        <meta property="og:title" content="title" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="img url" />
+        <meta property="og:description" content="page descriptions" />
+        <meta name="article:author" content="authors Name" />
+        <script src="../_assets/js/script.lib.min.js"></script>
+        <script defer src="../_assets/js/script.min.js"></script>
+        <script defer src="../_assets/js/utility.js"></script>
+        <!--로컬 테스트용 스크립트, 개발반영 X-->
+        <script defer src="../_assets/js/script.dev.min.js"></script>
+    </head>
+    <!--@COMPONENT-PIN-->
+    <!--각 페이지별 흐름을 제어하기 위해 추가된 프로퍼티입니다.-->
+    <!--이번 림 소개 페이지 통합건처럼, 특정 페이지가 확장/추가 될 때 중요한 역할을 하게 됩니다.-->
+    <!--만약 일정상 로직 변경이 어렵다면 말씀해주세요. 대안은 header, footer, dock 요소에 각각 .dark 클래스를 붙이는 방법으로 진행됩니다. 좋은 방법은 아닙니다.-->
+    <body data-component-pin="secondary">
+        <header class="header" id="header">
+            <p class="site-brand">
+                <a role="link" href="../home/home-welcome.html">
+                    <span class="pictogram"></span>
+                    <span class="label">RIM CLUB</span>
+                </a>
+            </p>
+            <div class="quickLink" id="quickLink">
+                <button type="button">
+                    <span class="pictogram"></span>
+                    <span class="label">아난티 서비스 바로가기</span>
+                </button>
+                <div class="link">
+                    <a class="ananti" href="./">
+                        <span class="pictogram"></span>
+                        <span class="label">아난티</span>
+                    </a>
+                    <a class="eternaljourney" href="./">
+                        <span class="pictogram"></span>
+                        <span class="label">이터널저니</span>
+                    </a>
+                    <a class="myRim" href="./">
+                        <span class="pictogram"></span>
+                        <span class="label">마이 림</span>
+                    </a>
+                    <hr />
+                    <a class="rimClub" href="./">림 클럽</a>
+                    <a class="respect" href="./">리스펙</a>
+                    <a class="gift" href="./">림 선물하기</a>
+                </div>
+            </div>
+        </header>
+        <main id="module-scroller" data-layout-modifier="fatty">
+            <!--@TYPE : utility 추가, 08-28-->
+            <!--@VIEW : back(이전으로 가기, button tag), home(홈으로 가기, a tag)-->
+            <div class="module-block" data-type="utility" data-view="back">
+                <div class="contents">
+                    <div class="head">
+                        <button type="button">
+                            <span class="pictogram"></span>
+                            <span class="label">이전으로 가기</span>
+                        </button>
+                    </div>
+                    <div class="body">
+                        <h1>PAGE HEADING</h1>
+                    </div>
+                    <div class="tail"></div>
+                </div>
+            </div>
+            <!--PC 대응을 위한 멤버십 모듈 (모바일에서는 보이지 않습니다)-->
+            <!--module type : membership-->
+            <div class="module-block" data-type="membership" data-tier="lv1">
+                <!--data-tier='lv1'에 등급별 특정 키워드를 지정해주시면, 각 등급별 이미지와 등급별 카드의 디자인을 불러옵니다. 패턴이 정해지면 알려주세요. 현재는 아래 패턴으로 작업되어 있습니다. 텍스트를 바꾸면, 스프레드 백드롭과 혜택받기 토글 스위치 컬러가 변경됩니다.-->
+                <!--예) data-tier='lv1', data-tier='lv2', data-tier='lv3', data-tier='lv4', data-tier='lv5' 등-->
+                <div class="backdrop"></div>
+                <div class="contents">
+                    <div class="panel" data-type="membership-summary">
+                        <div class="head">
+                            <button class="flipper" role="button" aria-label="멤버십 카드 보기"><span class="pictogram"></span></button>
+                            <h2>
+                                인천이씨시중공이자장사랑파 29세손종친친목회님은
+                                <br />
+                                <strong aria-label="이난태님의 회원 등급">RIM.1</strong>
+                                혜택을 받고 있어요.
+                            </h2>
+                        </div>
+                        <div class="body">
+                            <div class="tier"></div>
+                        </div>
+                        <div class="tail">
+                            <dl>
+                                <dt>나의 RIM</dt>
+                                <dd>
+                                    <strong data-sstmML="numeric" data-sstmVal="550"></strong>
+                                    <!--RIM 텍스트를 제외한 사용자의 RIM 데이터를 sstmVal에 출력해주세요. 화면 표시는 스크립트에서 제어합니다.-->
+                                    <!--데이터 출력시 1000단위 콤마는 나오지 않게 출력해주세요. 소숫점은 인식합니다.-->
+                                    <span class="currency">RIM</span>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="panel" data-type="membership-cards">
+                        <div class="head">
+                            <button class="flipper" role="button" aria-label="멤버십 요약 정보 보기"><span class="pictogram"></span></button>
+                            <h2>
+                                이난태님은
+                                <br />
+                                <strong aria-label="이난태님의 회원 등급">RIM.K</strong>
+                                혜택을 받고 있어요.
+                                <small>* 25년 2월 28일까지 등급이 유지됩니다.</small>
+                            </h2>
+                        </div>
+                        <div class="body">
+                            <!--여러 멤버십 카드의 대응(작업 중, 버튼 및 인디케이터 디자인 중. 개발은 관계없이 진행해주시면 됩니다. (CSS&스크립트로 생성 및 제어)-->
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <figure class="barcode" aria-label="이난태님의 멤버십 카드 바코드와 번호">
+                                            <div class="thumbnail">
+                                                <img src="../_assets/img/dummy/dummy-barcode@3x.png" alt="390490128904091490의 바코드 이미지" />
+                                                <!--바코드는 검정색 이미지 원본으로 출력. CSS에서 반전합니다. 스타일 변경시 디자인에 맞게 CSS 에서 컬러 변경 예정입니다.-->
+                                            </div>
+                                            <figcaption><strong>29408935091095890</strong></figcaption>
+                                        </figure>
+                                        <figure class="avatar" aria-label="이난태님의 아바타 이미지와 회원번호">
+                                            <div class="thumbnail">
+                                                <img src="../_assets/img/dummy/dummy-avatar1.png" alt="이난태님의 아바타" />
+                                                <!--아바타 이미지는 용량 제한만 필요(서버 상태에 따라)하고, 비율 제한 및 크기 제한은 없어도 됩니다. 항상 정사각형으로 크롭하여 꽉차게 출력합니다.-->
+                                            </div>
+                                            <figcaption><strong>NO. 1808251117</strong></figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure class="barcode" aria-label="이난태님의 멤버십 카드 바코드와 번호">
+                                            <div class="thumbnail"><img src="../_assets/img/dummy/dummy-barcode@3x.png" alt="390490128904091490의 바코드 이미지" /></div>
+                                            <figcaption><strong>390490128904091490</strong></figcaption>
+                                        </figure>
+                                        <figure class="avatar" aria-label="이난태님의 아바타 이미지와 회원번호">
+                                            <div class="thumbnail"><img src="../_assets/img/dummy/dummy-avatar2.png" alt="이난태님의 아바타" /></div>
+                                            <figcaption><strong>NO. 29083901232</strong></figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure class="barcode" aria-label="이난태님의 멤버십 카드 바코드와 번호">
+                                            <div class="thumbnail"><img src="../_assets/img/dummy/dummy-barcode@3x.png" alt="390490128904091490의 바코드 이미지" /></div>
+                                            <figcaption><strong>483839292389238923</strong></figcaption>
+                                        </figure>
+                                        <figure class="avatar" aria-label="이난태님의 아바타 이미지와 회원번호">
+                                            <div class="thumbnail"><img src="../_assets/img/dummy/dummy-avatar3.jpg" alt="이난태님의 아바타" /></div>
+                                            <figcaption><strong>NO. 38989812399</strong></figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure class="barcode" aria-label="이난태님의 멤버십 카드 바코드와 번호">
+                                            <div class="thumbnail"><img src="../_assets/img/dummy/dummy-barcode@3x.png" alt="390490128904091490의 바코드 이미지" /></div>
+                                            <figcaption><strong>389238923483839292</strong></figcaption>
+                                        </figure>
+                                        <figure class="avatar" aria-label="이난태님의 아바타 이미지와 회원번호">
+                                            <div class="thumbnail"><img src="../_assets/img/dummy/dummy-avatar4.jpg" alt="이난태님의 아바타" /></div>
+                                            <figcaption><strong>NO. 383829293329</strong></figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <button class="next" role="button"></button>
+                                <button class="prev" role="button"></button>
+                            </div>
+                        </div>
+                        <div class="tail">
+                            <p>ANANTI RIM Club 혜택 받기</p>
+                            <div class="tooltip" data-init="true" data-size="177">
+                                <div class="label"><span class="pictogram"></span></div>
+                                <div class="window">
+                                    <p>ANANTI RIM CLUB 쿠폰을 사용하기 위해서는 마케팅 활용 및 광고성 정보 수신 동의가 필요합니다.</p>
+                                </div>
+                            </div>
+                            <!--toggle-switch가 없어야 하는 상태의 경우, 아래 마크업을 출력하지 않으면 됩니다.-->
+                            <div class="toggle-switch">
+                                <label>
+                                    <input id="toggle-membership" type="checkbox" checked aria-label="멤버 등급 혜택 활성화/비활성화" />
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--module type : hero-->
+            <!--@TYPE : hero / @SIZE : flex / @VISUAL : backdrop 추가, 08-28-->
+            <!--hero 모듈은 최상단에만 배치할 수 있는 모듈입니다. 그 외 다른 프로퍼티는 필요하지 않습니다.-->
+            <div class="module-block" data-type="hero" data-size="flex" data-visual="backdrop">
+                <div class="backdrop"></div>
+                <div class="contents">
+                    <div class="visual"><img src="../_assets/img/hero/hero-stamp@3x.png" /></div>
+                    <div class="head">
+                        <h2>도전! 객실 RIM 스탬프</h2>
+                    </div>
+                    <div class="body"></div>
+                    <div class="tail"></div>
+                </div>
+            </div>
+            <!--module type : stamp-->
+            <!--@TYPE : stamp / @SIZE : flex-->
+            <!--이 모듈은 유니크 모듈입니다. 그 외 다른 프로퍼티를 갖지 않습니다.-->
+            <div class="module-block" data-type="stamp" data-size="flex">
+                <div class="backdrop"></div>
+                <div class="contents">
+                    <div class="head">
+                        <h2>
+                            도전! 객실 RIM 스탬프
+                            <br />
+                            24.09.01~25.02.28
+                        </h2>
+                        <p>
+                            주중 1박 이용시마다 스탬프 1개 적립!
+                            <br />
+                            스탬프 6개 적립시 무료 숙박권 지급!
+                            <br />
+                            스탬프 한판 완성시 연간 숙박 일수 1일 추가 지급!
+                        </p>
+                    </div>
+                    <div class="body">
+                        <h3><span>HOW TO</span></h3>
+                        <ol>
+                            <li>주중 펜트하우스/레지던스 객실 이용하기 (*무료숙박권 적용 제외)</li>
+                            <li>체크아웃 시 1박마다 스탬프 1개씩 받기</li>
+                            <li>스탬프 6개 채우고 주중 무료 숙박권 받기</li>
+                            <li>스탬프 한판 채우고 주말 연간 이용 일수 1일 받기</li>
+                            <li>스탬프 다시 채우고 계속 혜택받기</li>
+                        </ol>
+                        <div class="stamp-slot">
+                            <h4>MY RIM STAMP</h4>
+                            <dl class="membership">
+                                <dt>회원권 타입</dt>
+                                <dd>
+                                    <select>
+                                        <option>1221407000</option>
+                                        <option>3489389042</option>
+                                        <option>5989034893</option>
+                                    </select>
+                                </dd>
+                            </dl>
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <ul>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <ul>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                            <li><span aria-label="스탬프 획득"></span></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <button class="next"></button>
+                                <button class="prev"></button>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                            <dl class="my">
+                                <dt>보유 스탬프</dt>
+                                <dd>
+                                    <strong>10</strong>
+                                    <span>개</span>
+                                </dd>
+                                <!--antejsm-138-->
+                                <dt>혜택 차감 스탬프</dt>
+                                <dd>
+                                    <strong>5</strong>
+                                    <span>개</span>
+                                </dd>
+                            </dl>
+                        </div>
+                        <p class="helper">* 객실 RIM 스탬프 이벤트는 계속 도전할 수 있어요</p>
+                    </div>
+                    <div class="tail">
+                        <button class="cta" id="stamp" type="button" data-type="primary">
+                            <span class="label">스탬프 몰아주기</span>
+                            <span class="pictogram"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!--module type : helper-->
+            <!--@TYPE : helper / @SIZE : flex-->
+            <!--helper 모듈은 body data-layout-modifier='fatty' 에서 어느 곳이든 사용할 수 있습니다. 다른 곳에서는 넣어도 보이지 않습니다.-->
+            <div class="module-block" data-type="helper" data-size="flex">
+                <div class="contents">
+                    <div class="head">
+                        <h2>꼭 확인해 주세요!</h2>
+                    </div>
+                    <div class="body">
+                        <ul class="helper">
+                            <li>본 이벤트는 아난티 회원 유형에 따라 진행되며, 로그인 시에만 혜택 지급이 가능합니다.</li>
+                            <li>스탬프 적립은 아난티 공식 홈페이지 또는 APP에서 예약한 건의 체크아웃 시에만 적립이 가능합니다.</li>
+                            <li>RIM 스탬프 이벤트는 25년 2월 28일까지 유효합니다.</li>
+                            <li>유료 숙박권으로 주중 투숙 체크아웃 시 1박마다 1개의 스탬프가 익일 NN시 이후 자동으로 지급됩니다. 예시) 주중 1박 투숙 > 체크아웃 > 스탬프 1개 적립 예시) 주중 3박 투숙 > 체크아웃 > 스탬프 3개 적립</li>
+                            <li>스탬프 6개 적립 시 주중 무료 숙박권이 자동 지급되며, 스탬프 1판(12개)이 완성 시 주말 이용 가능 연간 일수가 1일 추가됩니다. 스탬프 6개, 12개 적립 시마다 혜택 쿠폰이 자동 지급됩니다.</li>
+                            <li>교환한 무료 숙박권은 아난티 > MY 아난티 > 쿠폰에서 확인 가능합니다.</li>
+                            <li>본 이벤트 기간 내 참여 가능 횟수 제한 없이 계속 참여가 가능합니다.</li>
+                            <li>등급별 혜택 및 이벤트로 지급된 무료 숙박권 이용건은 스탬프 지급에서 제외됩니다.</li>
+                            <li>아난티와 이터널저니의 마케팅 활용 및 광고성 정보 수신 동의에 한하여 객실 RIM 스탬프 혜택 이용이 가능합니다.</li>
+                            <li>스탬프 몰아주기는 같은 구좌 내 회원끼리 가능하며, 혜택 자동 지급 후 남은 스탬프로 가능합니다.</li>
+                        </ul>
+                    </div>
+                    <div class="tail"></div>
+                </div>
+            </div>
+            <div class="windows" data-type="modal">
+                <div class="contents">
+                    <div class="head">
+                        <!--h2-->
+                        <!--    | 일반 텍스트로 작성하는 케이스-->
+                        <img src="../_assets/img/modal/modal-stamp-sent@3x.png" />
+                    </div>
+                    <div class="body">
+                        <h3>
+                            스탬프 몰아주기가
+                            <br />
+                            완료되었습니다!
+                        </h3>
+                        <!--p-->
+                        <!--    | 선물받은 RIM은 'RIM 히스토리' 에서-->
+                        <!--    br-->
+                        <!--    | 확인 가능합니다.-->
+                    </div>
+                    <div class="tail">
+                        <button class="cta" id="confirm" type="button" data-type="primary">확인</button>
+                    </div>
+                </div>
+            </div>
+            <!--08.30 푸터를 모듈화하여 모듈 스크롤러 안으로 삽입-->
+            <div class="module-block" data-type="footer" data-size="flex">
+                <div class="contents">
+                    <div class="head"><strong>ⓒ ANANTI RIM CLUB</strong></div>
+                    <div class="body">
+                        <!--이후 확장을 위해 넣어두었습니다.-->
+                        <!--상업적인 서비스가 들어갈 경우 사업자 정보 등이 들어가는 위치입니다.-->
+                        <!--현재는 보이지 않게 처리되었습니다.-->
+                    </div>
+                    <div class="tail">
+                        <!--이후 확장을 위해 넣어두었습니다.-->
+                        <!--E.C 관련 버튼 등이 필요하다면 들어갑니다. 또는 아난티/이터널 저니 이동 버튼 등이 들어갑니다.-->
+                        <!--현재는 보이지 않게 처리되었습니다.-->
+                    </div>
+                </div>
+            </div>
+        </main>
+        <nav class="dock" id="dock">
+            <ul>
+                <li>
+                    <div class="rim">
+                        <button type="button">
+                            <span class="pictogram"></span>
+                            <span class="label">림 클럽</span>
+                        </button>
+                        <ul>
+                            <li>
+                                <a class="club" href="../world/world.html">
+                                    <span class="pictogram"></span>
+                                    <span class="label">림 클럽 소개</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="respect" href="../world/world-membership.html">
+                                    <span class="pictogram"></span>
+                                    <span class="label">리스펙</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="signup" href="./">
+                                    <span class="pictogram"></span>
+                                    <span class="label">클럽 가입하기</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="rim" href="../world/world.html">
+                        <span class="pictogram"></span>
+                        <span class="label">림 클럽</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="gift" href="../gift/gift.html">
+                        <span class="pictogram"></span>
+                        <span class="label">선물하기</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="history" href="../history/history.html">
+                        <span class="pictogram"></span>
+                        <span class="label">히스토리</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="home" href="../home/home.html">
+                        <span class="pictogram"></span>
+                        <span class="label">MY RIM</span>
+                    </a>
+                </li>
+                <li>
+                    <div class="portal">
+                        <button role="button">
+                            <span class="pictogram ananti"></span>
+                            <span class="pictogram eternaljourney"></span>
+                        </button>
+                        <ul>
+                            <li><a class="ananti" href="https://ananti.kr/">아난티 바로가기</a></li>
+                            <li><a class="eternaljourney" href="https://eternaljourney.ananti.kr/">이터널저니 바로가기</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <button class="top" id="top">
+            <span class="label">화면 최상단으로 이동</span>
+            <span class="pictogram"></span>
+        </button>
+    </body>
+</html>

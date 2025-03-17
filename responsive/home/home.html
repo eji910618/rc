@@ -1,0 +1,1631 @@
+<!doctype html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, viewport-fit=cover" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <title>RIM CLUB, ANANTI.</title>
+        <link rel="icon" href="../_assets/img/browser/favicon.ico" />
+        <link rel="icon" sizes="16x16" href="../_assets/img/browser/favicon-16x16.png" />
+        <link rel="icon" sizes="32x32" href="../_assets/img/browser/favicon-32x32.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../_assets/img/browser/apple-touch-icon.png" />
+        <link href="../_assets/css/styles.min.css" rel="stylesheet" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Cache-Control" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="description" content="SEO TEXT" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="../_assets/img/browser/mstile-144x144.png" />
+        <meta property="og:site_name" content="site name" />
+        <meta property="og:url" content="page url" />
+        <meta property="og:title" content="title" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="img url" />
+        <meta property="og:description" content="page descriptions" />
+        <meta name="article:author" content="authors Name" />
+        <script src="../_assets/js/script.lib.min.js"></script>
+        <script defer src="../_assets/js/script.min.js"></script>
+        <script defer src="../_assets/js/utility.js"></script>
+        <!--로컬 테스트용 스크립트, 개발반영 X-->
+        <script defer src="../_assets/js/script.dev.min.js"></script>
+    </head>
+    <body data-component-pin="default">
+        <header class="header" id="header">
+            <p class="site-brand">
+                <a role="link" href="../home/home-welcome.html">
+                    <span class="pictogram"></span>
+                    <span class="label">RIM CLUB</span>
+                </a>
+            </p>
+            <div class="quickLink" id="quickLink">
+                <button type="button">
+                    <span class="pictogram"></span>
+                    <span class="label">아난티 서비스 바로가기</span>
+                </button>
+                <div class="link">
+                    <a class="ananti" href="./">
+                        <span class="pictogram"></span>
+                        <span class="label">아난티</span>
+                    </a>
+                    <a class="eternaljourney" href="./">
+                        <span class="pictogram"></span>
+                        <span class="label">이터널저니</span>
+                    </a>
+                    <a class="myRim" href="./">
+                        <span class="pictogram"></span>
+                        <span class="label">마이 림</span>
+                    </a>
+                    <hr />
+                    <a class="rimClub" href="./">림 클럽</a>
+                    <a class="respect" href="./">리스펙</a>
+                    <a class="gift" href="./">림 선물하기</a>
+                </div>
+            </div>
+        </header>
+        <main id="module-scroller">
+            <!--module type : membership-->
+            <div class="module-block" data-type="membership" data-tier="lv1">
+                <!--data-tier='lv1'에 등급별 특정 키워드를 지정해주시면, 각 등급별 이미지와 등급별 카드의 디자인을 불러옵니다. 패턴이 정해지면 알려주세요. 현재는 아래 패턴으로 작업되어 있습니다. 텍스트를 바꾸면, 스프레드 백드롭과 혜택받기 토글 스위치 컬러가 변경됩니다.-->
+                <!--예) data-tier='lv1', data-tier='lv2', data-tier='lv3', data-tier='lv4', data-tier='lv5' 등-->
+                <div class="backdrop"></div>
+                <div class="contents">
+                    <div class="panel" data-type="membership-summary">
+                        <div class="head">
+                            <button class="flipper" role="button" aria-label="멤버십 카드 보기"><span class="pictogram"></span></button>
+                            <h2>
+                                인천이씨시중공이자장사랑파 29세손종친친목회님은
+                                <br />
+                                <strong aria-label="이난태님의 회원 등급">RIM.1</strong>
+                                혜택을 받고 있어요.
+                            </h2>
+                        </div>
+                        <div class="body">
+                            <div class="tier"></div>
+                        </div>
+                        <div class="tail">
+                            <dl>
+                                <dt>나의 RIM</dt>
+                                <dd>
+                                    <strong data-sstmML="numeric" data-sstmVal="550"></strong>
+                                    <!--RIM 텍스트를 제외한 사용자의 RIM 데이터를 sstmVal에 출력해주세요. 화면 표시는 스크립트에서 제어합니다.-->
+                                    <!--데이터 출력시 1000단위 콤마는 나오지 않게 출력해주세요. 소숫점은 인식합니다.-->
+                                    <span class="currency">RIM</span>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="panel" data-type="membership-cards">
+                        <div class="head">
+                            <button class="flipper" role="button" aria-label="멤버십 요약 정보 보기"><span class="pictogram"></span></button>
+                            <h2>
+                                이난태님은
+                                <br />
+                                <strong aria-label="이난태님의 회원 등급">RIM.K</strong>
+                                혜택을 받고 있어요.
+                                <small>* 25년 2월 28일까지 등급이 유지됩니다.</small>
+                            </h2>
+                        </div>
+                        <div class="body">
+                            <!--여러 멤버십 카드의 대응(작업 중, 버튼 및 인디케이터 디자인 중. 개발은 관계없이 진행해주시면 됩니다. (CSS&스크립트로 생성 및 제어)-->
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <figure class="barcode" aria-label="이난태님의 멤버십 카드 바코드와 번호">
+                                            <div class="thumbnail">
+                                                <img src="../_assets/img/dummy/dummy-barcode@3x.png" alt="390490128904091490의 바코드 이미지" />
+                                                <!--바코드는 검정색 이미지 원본으로 출력. CSS에서 반전합니다. 스타일 변경시 디자인에 맞게 CSS 에서 컬러 변경 예정입니다.-->
+                                            </div>
+                                            <figcaption><strong>29408935091095890</strong></figcaption>
+                                        </figure>
+                                        <figure class="avatar" aria-label="이난태님의 아바타 이미지와 회원번호">
+                                            <div class="thumbnail">
+                                                <img src="../_assets/img/dummy/dummy-avatar1.png" alt="이난태님의 아바타" />
+                                                <!--아바타 이미지는 용량 제한만 필요(서버 상태에 따라)하고, 비율 제한 및 크기 제한은 없어도 됩니다. 항상 정사각형으로 크롭하여 꽉차게 출력합니다.-->
+                                            </div>
+                                            <figcaption><strong>NO. 1808251117</strong></figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure class="barcode" aria-label="이난태님의 멤버십 카드 바코드와 번호">
+                                            <div class="thumbnail"><img src="../_assets/img/dummy/dummy-barcode@3x.png" alt="390490128904091490의 바코드 이미지" /></div>
+                                            <figcaption><strong>390490128904091490</strong></figcaption>
+                                        </figure>
+                                        <figure class="avatar" aria-label="이난태님의 아바타 이미지와 회원번호">
+                                            <div class="thumbnail"><img src="../_assets/img/dummy/dummy-avatar2.png" alt="이난태님의 아바타" /></div>
+                                            <figcaption><strong>NO. 29083901232</strong></figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure class="barcode" aria-label="이난태님의 멤버십 카드 바코드와 번호">
+                                            <div class="thumbnail"><img src="../_assets/img/dummy/dummy-barcode@3x.png" alt="390490128904091490의 바코드 이미지" /></div>
+                                            <figcaption><strong>483839292389238923</strong></figcaption>
+                                        </figure>
+                                        <figure class="avatar" aria-label="이난태님의 아바타 이미지와 회원번호">
+                                            <div class="thumbnail"><img src="../_assets/img/dummy/dummy-avatar3.jpg" alt="이난태님의 아바타" /></div>
+                                            <figcaption><strong>NO. 38989812399</strong></figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <figure class="barcode" aria-label="이난태님의 멤버십 카드 바코드와 번호">
+                                            <div class="thumbnail"><img src="../_assets/img/dummy/dummy-barcode@3x.png" alt="390490128904091490의 바코드 이미지" /></div>
+                                            <figcaption><strong>389238923483839292</strong></figcaption>
+                                        </figure>
+                                        <figure class="avatar" aria-label="이난태님의 아바타 이미지와 회원번호">
+                                            <div class="thumbnail"><img src="../_assets/img/dummy/dummy-avatar4.jpg" alt="이난태님의 아바타" /></div>
+                                            <figcaption><strong>NO. 383829293329</strong></figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <div class="swiper-pagination"></div>
+                                <button class="next" role="button"></button>
+                                <button class="prev" role="button"></button>
+                            </div>
+                        </div>
+                        <div class="tail">
+                            <p>ANANTI RIM Club 혜택 받기</p>
+                            <div class="tooltip" data-init="true" data-size="177">
+                                <div class="label"><span class="pictogram"></span></div>
+                                <div class="window">
+                                    <p>ANANTI RIM CLUB 쿠폰을 사용하기 위해서는 마케팅 활용 및 광고성 정보 수신 동의가 필요합니다.</p>
+                                </div>
+                            </div>
+                            <!--toggle-switch가 없어야 하는 상태의 경우, 아래 마크업을 출력하지 않으면 됩니다.-->
+                            <div class="toggle-switch">
+                                <label>
+                                    <input id="toggle-membership" type="checkbox" checked aria-label="멤버 등급 혜택 활성화/비활성화" />
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--module type : Stick(floor)-->
+            <!--@TYPE : stick / @SIZE : N/A / @VISUAL : N/A / @VIEW : N/A-->
+            <!--바닥면에 달라 붙어 있는 특수 모듈입니다. TYPE외 다른 프로퍼티는 존재하지 않습니다.-->
+            <!--이 모듈이 모듈 사이에 삽입 되면, 위 아래의 여백을 제거하게 됩니다.-->
+            <!--기본 구조중 필요한 부분은 head와 visual 뿐이지만, 다른 부분들을 넣어도 문제 없습니다.-->
+            <div class="module-block" data-type="stick" data-visual="backdrop">
+                <div class="contents">
+                    <div class="visual"><img loading="lazy" src="../_assets/img/placard/rimclub-backdrop.png" /></div>
+                    <div class="head">
+                        <h2>
+                            완전히 다른 시스템으로
+                            <br />
+                            판도를 뒤흔들다.
+                        </h2>
+                        <p>ANANTI RIM CLUB</p>
+                        <a class="cta" href="../world/world.html">더 알아보기</a>
+                    </div>
+                    <div class="body"></div>
+                    <div class="tail"></div>
+                </div>
+            </div>
+            <!--@VIEW : Summarize 시작-->
+            <!--위와 중복되는 속성 설명은 생략합니다.-->
+            <!--module type : Expand-->
+            <!--@TYPE : expand / @SIZE : medium / @VISUAL : backdrop / @VIEW : summarize-->
+            <!--이 모듈은 하나의 화면에 두개 이상 들어갈 경우 애니메이션에 오류가 생길 수 있습니다. 개발시 참고 부탁드립니다.-->
+            <div class="module-block" data-type="expand" data-size="medium" data-visual="backdrop" data-view="summarize">
+                <div class="contents">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="../_assets/img/inhouse/summarize.png" /></div>
+                    <div class="head">
+                        <h2>
+                            이난태님은
+                            <br />
+                            아난티 프로 휴식러
+                        </h2>
+                        <p>같은 등급 사람들과 비교하러 가볼까요?</p>
+                    </div>
+                    <div class="body" data-contain="diff">
+                        <div class="message-container">
+                            <div class="messages">
+                                <h3 data-sstmMl="numeric" data-sstmVal="2500"></h3>
+                                <span class="currency">RIM</span>
+                            </div>
+                            <div class="messages">
+                                <h3>상위 12%</h3>
+                            </div>
+                        </div>
+                        <p>
+                            이난태님은 아난티 숙박으로
+                            <strong>2,500 RIM</strong>
+                            을 적립하여
+                            <br />
+                            아난티 프로 휴식러
+                            <strong>상위 12%</strong>
+                            에 속합니다.
+                        </p>
+                        <div class="chart" data-sstmMl="chart" data-sstmVal="2">
+                            <span class="top1"></span>
+                            <span class="top2"></span>
+                            <span class="top3"></span>
+                            <span class="top4"></span>
+                            <span class="top5"></span>
+                            <span class="log-line"></span>
+                            <span class="axis-x-start">하위</span>
+                            <span class="axis-x-end">상위</span>
+                            <span class="pointer"></span>
+                            <span class="balloon">상위 12%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--@VIEW : Stack 시작-->
+            <!--위와 중복되는 속성 설명은 생략합니다.-->
+            <!--module type : Expand-->
+            <!--@TYPE : expand / @SIZE : medium / @VISUAL : backdrop / @VIEW : stack-->
+            <!--이 모듈은 하나의 화면에 두개 이상 들어갈 경우 애니메이션에 오류가 생길 수 있습니다. 개발시 참고 부탁드립니다.-->
+            <div class="module-block" data-type="expand" data-size="medium" data-visual="backdrop" data-view="stack">
+                <div class="contents">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2024/03/15/20240315165407376.263576.png" /></div>
+                    <div class="head">
+                        <h2>
+                            이난태님은
+                            <br />
+                            이터널저니 결제왕
+                        </h2>
+                        <p>어디서 RIM이 많이 적립되었는지 보러 가볼까요?</p>
+                    </div>
+                    <div class="body" data-contain="rank">
+                        <hr />
+                        <div class="hero">
+                            <h3>
+                                이터널저니에서
+                                <br />
+                                <!--멤버십 모듈의 나의 림 카운트때와 동일한 방식입니다. 필요한 숫자를 sstmVal에 넣어주시면 작동합니다.-->
+                                <strong data-sstmML="numeric" data-sstmVal="2354"></strong>
+                                <span class="currency">RIM</span>
+                                적립되셨어요!
+                            </h3>
+                            <p class="helper">이터널저니에서 이런 저런 안내가 여기에 노출되는 그런 영역입니다 이터널 저니에서 이런 저런 안내가 여기에 노출되는 그런 영역입니다. 이터널저니에서 이런 저런 안내가 여기에 노출되는 그런 영역입니다.</p>
+                        </div>
+                        <!--sstmVal에 입력된 숫자를 순서대로 1, 2, 3위로 출력합니다. 현재는 1:1 비율(74점이면 떨어지는 동그라미의 갯수도 74개)로 설정되어 있습니다.-->
+                        <!--일반적인 숫자의 크기가 200~300 등으로 높아질 여지가 있다면, 스크립트내에서 백분율 연산을 추가로 진행할 예정입니다. 데이터상 나오는 숫자를 그대로 출력해주시면 됩니다.-->
+                        <!--sstmClr은 입력된 숫자와 동일한 순서로 1, 2, 3위의 컬러를 지정합니다. 현재는 작동하지 않습니다.-->
+                        <!--sstmClr을 카테고리별(이터널저니, 골프, 객실, F&B등) 플래그 값으로 받고, 각 플래그 값에 맞는 컬러 값을 내장하고 있도록 변경하게 될 수 있으니, 참고 부탁드립니다.-->
+                        <sstm data-sstmML="stack" data-sstmVal="74, 23, 3" data-sstmClr="#000000, #2DCCB5, #7073FF"></sstm>
+                        <h5>이난태님의 적립 TOP3</h5>
+                        <dl>
+                            <dt><strong class="label">1. 이터널저니</strong></dt>
+                            <dd>
+                                <p class="color" style="background-color: #000000">
+                                    <!--멤버십 모듈의 나의 림 카운트때와 동일한 방식입니다. 필요한 숫자를 sstmVal에 넣어주시면 작동합니다.-->
+                                    <strong data-sstmML="numeric" data-sstmVal="74"></strong>
+                                    <span class="currency">RIM</span>
+                                </p>
+                            </dd>
+                            <dt><span class="label">2. 객실</span></dt>
+                            <dd>
+                                <p class="color" style="background-color: #2dccb5">
+                                    <!--멤버십 모듈의 나의 림 카운트때와 동일한 방식입니다. 필요한 숫자를 sstmVal에 넣어주시면 작동합니다.-->
+                                    <strong data-sstmML="numeric" data-sstmVal="23"></strong>
+                                    <span class="currency">RIM</span>
+                                </p>
+                            </dd>
+                            <dt><span class="label">3. 골프</span></dt>
+                            <dd>
+                                <p class="color" style="background-color: #7073ff">
+                                    <!--멤버십 모듈의 나의 림 카운트때와 동일한 방식입니다. 필요한 숫자를 sstmVal에 넣어주시면 작동합니다.-->
+                                    <strong data-sstmML="numeric" data-sstmVal="3"></strong>
+                                    <span class="currency">RIM</span>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <!--@VIEW : bar 시작-->
+            <!--위와 중복되는 속성 설명은 생략합니다.-->
+            <!--module type : Expand-->
+            <!--@TYPE : expand / @SIZE : medium / @VISUAL : backdrop / @VIEW : bar-->
+            <!--이 모듈은 하나의 화면에 두개 이상 들어갈 경우 애니메이션에 오류가 생길 수 있습니다. 개발시 참고 부탁드립니다.-->
+            <div class="module-block" data-type="expand" data-size="medium" data-visual="backdrop" data-view="bar">
+                <div class="contents">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="../_assets/img/inhouse/top3.png" /></div>
+                    <div class="head">
+                        <h2 style="color: #000">
+                            10월의
+                            <br />
+                            프로 RIM 적립러 TOP3!
+                        </h2>
+                        <p style="color: #000">
+                            프로 RIM 적립러들의
+                            <br />
+                            적립 내용을 보러 가볼까요?
+                        </p>
+                    </div>
+                    <div class="body" data-contain="top3">
+                        <ul class="label">
+                            <li class="room">객실</li>
+                            <li class="golf">골프</li>
+                            <li class="eternalJourney">이터널저니</li>
+                            <li class="fnb">F&B</li>
+                            <li class="activity">액티비티</li>
+                            <li class="facility">부대시설</li>
+                            <li class="gift">선물</li>
+                            <li class="etc">기타</li>
+                        </ul>
+                        <ol class="top3">
+                            <li>
+                                <h3>
+                                    <span class="emoji">🥇</span>
+                                    <span>빛나는 1위!</span>
+                                    <strong>2,0000 RIM</strong>
+                                </h3>
+                                <p>
+                                    <strong class="rail"></strong>
+                                    <strong class="max" data-sstmMl="gauge" data-sstmMax="20000">
+                                        <span class="gift" data-sstmVal="9000"></span>
+                                        <span class="fnb" data-sstmVal="4000"></span>
+                                        <span class="golf" data-sstmVal="3000"></span>
+                                        <span class="room" data-sstmVal="2000"></span>
+                                        <span class="facility" data-sstmVal="1000"></span>
+                                        <span class="etc" data-sstmVal="1000"></span>
+                                    </strong>
+                                </p>
+                            </li>
+                            <li>
+                                <h3>
+                                    <span>2위</span>
+                                    <strong>1,5000 RIM</strong>
+                                </h3>
+                                <p>
+                                    <strong class="rail"></strong>
+                                    <strong class="max" data-sstmMl="gauge" data-sstmMax="15000">
+                                        <span class="activity" data-sstmVal="7000"></span>
+                                        <span class="fnb" data-sstmVal="4000"></span>
+                                        <span class="eternalJourney" data-sstmVal="3000"></span>
+                                        <span class="etc" data-sstmVal="1000"></span>
+                                    </strong>
+                                </p>
+                            </li>
+                            <li>
+                                <h3>
+                                    <span>3위</span>
+                                    <strong>1,0000 RIM</strong>
+                                </h3>
+                                <p>
+                                    <strong class="rail"></strong>
+                                    <strong class="max" data-sstmMl="gauge" data-sstmMax="10000">
+                                        <span class="room" data-sstmVal="5000"></span>
+                                        <span class="golf" data-sstmVal="2500"></span>
+                                        <span class="eternalJourney" data-sstmVal="1500"></span>
+                                        <span class="etc" data-sstmVal="1000"></span>
+                                    </strong>
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <!--이터널저니 림 적립률 소개 모듈 예제-->
+            <div class="module-block" data-type="expand" data-size="medium" data-visual="backdrop" data-view="custom">
+                <div class="contents">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="../_assets/img/dummy/1.png" /></div>
+                    <div class="head">
+                        <h2>
+                            림을 모으는 가장 빠른 방법은
+                            <br />
+                            이터널저니에 있어요!
+                        </h2>
+                        <p>남들보다 RIM 두 배, 세 배 빨리 쌓는 법</p>
+                    </div>
+                    <div class="body" data-contain="eternaljourney">
+                        <div class="hero">
+                            <h3>
+                                이터널저니에서 상품을 구매하실 때마다
+                                <br />
+                                <strong>최대 3배</strong>
+                                RIM 적립은 물론,
+                                <br />
+                                <strong>RIM 스탬프</strong>
+                                를 통해
+                                <br />
+                                추가 적립까지 받아 가세요!
+                            </h3>
+                        </div>
+                        <h5>이터널저니 적립률</h5>
+                        <dl>
+                            <dt><span class="label">RIM.1</span></dt>
+                            <dd>
+                                <span>0.1%</span>
+                                <!--컬러 변경이 필요한 경우 아래 스타일에 HEX값을 입력하시면 됩니다.-->
+                                <!--스타일 자체를 지우면 아난티컬러로 나옵니다.-->
+                                <p class="color" style="background-color: #14c3a2"><span>x2</span></p>
+                            </dd>
+                            <dt><span class="label">RIM.2</span></dt>
+                            <dd>
+                                <span>0.1%</span>
+                                <p class="color"><span>x2</span></p>
+                            </dd>
+                            <dt><span class="label">RIM.K</span></dt>
+                            <dd>
+                                <span>0.1% (BO컬러 삽입시의 예제)</span>
+                                <p class="color" style="background-color: #000000"><span>x2</span></p>
+                            </dd>
+                            <dt><span class="label">RIM.Q</span></dt>
+                            <dd>
+                                <span>0.1%</span>
+                                <p class="color" style="background-color: #14c3a2"><span>x2</span></p>
+                            </dd>
+                            <dt><span class="label">R.R</span></dt>
+                            <dd>
+                                <span>0.1%</span>
+                                <p class="color" style="background-color: #14c3a2"><span>x2</span></p>
+                            </dd>
+                        </dl>
+                        <a class="cta" role="link" href="./"><span class="label">RIM 스탬프 보러가기</span></a>
+                        <a class="cta" role="link" data-style="outlined" href="./"><span class="label">이터널저니 온라인 혜택 보러가기</span></a>
+                        <a class="cta" role="link" data-style="outlined" href="./"><span class="label">이터널저니 매장 혜택 보러가기</span></a>
+                    </div>
+                    <div class="tail" data-preview="false"></div>
+                </div>
+            </div>
+            <!--이번 확정 모듈에서는 Expand만 다룹니다.-->
+            <!--마크업 구조 : 확정 / 시각 스타일(CSS) : 미확정-->
+            <!--아래 같은 VIEW 타입간의 예제 코드 내용은 완전히 동일하고, data 프로퍼티만 다르게 설정되어 있습니다.-->
+            <!--.tail 내 button preview 프로퍼티는 테스트 진행중입니다. true로 지정되어 있어도, 직전에 보내드린 시각화 매트릭스에 표기 된 룰을 우선합니다.-->
+            <!--(버튼 출력이 공간문제로 불가능 할 경우 true여도 출력하지 아니함)-->
+            <!---->
+            <!---->
+            <!---->
+            <!--@VIEW : Listing 시작-->
+            <!---->
+            <!---->
+            <!--module type : Expand-->
+            <!--@TYPE : expand / @SIZE : default / @VISUAL : none / @VIEW : listing-->
+            <!--expand 모듈의 기본 타입. 사이즈가 default이므로, @VISUAL이 backdrop인 케이스에만 출력되고, .visual 코드가 있어도 무시합니다.-->
+            <!--@SIZE 프로퍼티에 우선권이 있으므로, 사이즈가 Default로 설정된 상태에서 @VISUAL이 default여도 역시 .visual은 무시됩니다.-->
+            <!--view 프로퍼티는 인터랙션에 관여합니다.-->
+            <div class="module-block" data-type="expand" data-size="default" data-visual="backdrop" data-view="listing">
+                <div class="contents">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2024/08/01/20240801134726268.104678.jpg" /></div>
+                    <div class="head">
+                        <h2>
+                            바로 사용할 수 있는
+                            <br />
+                            RIM.2의 호텔 림 저니 혜택!
+                        </h2>
+                        <p>호텔 림 저니 혜택을 보러 가볼까요?</p>
+                    </div>
+                    <div class="body" data-contain="voucher">
+                        <ul>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 이미지로 출력하는 경우-->
+                                    <div class="thumbnail"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2023/11/10/20231110101314452.102516.png" /></div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>2회</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <!--백그라운드 컬러 지정 케이스-->
+                                    <div class="thumbnail" style="background-color: #9ae2ef">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <strong data-stamp="redeemed"><span class="label">사용완료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>숙박권</p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료 부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <!--기간만료 케이스가 필요한 경우에 이 타입을 사용하시면 됩니다. 로직상 필요없다면 생략 가능합니다.-->
+                                <strong data-stamp="expired"><span class="label">기간만료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>
+                                            1,000
+                                            <br />
+                                            RIM
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>객실료 5% 할인</h3>
+                                        <p>분기별 1회, 연 4회 | 강남, 앳 부산 코브</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 이미지로 출력하는 경우-->
+                                    <div class="thumbnail"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2023/11/10/20231110101314452.102516.png" /></div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>2회</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <!--백그라운드 컬러 지정 케이스-->
+                                    <div class="thumbnail" style="background-color: #9ae2ef">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <strong data-stamp="redeemed"><span class="label">사용완료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>숙박권</p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료 부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <!--기간만료 케이스가 필요한 경우에 이 타입을 사용하시면 됩니다. 로직상 필요없다면 생략 가능합니다.-->
+                                <strong data-stamp="expired"><span class="label">기간만료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>
+                                            1,000
+                                            <br />
+                                            RIM
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>객실료 5% 할인</h3>
+                                        <p>분기별 1회, 연 4회 | 강남, 앳 부산 코브</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 이미지로 출력하는 경우-->
+                                    <div class="thumbnail"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2023/11/10/20231110101314452.102516.png" /></div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>2회</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <!--백그라운드 컬러 지정 케이스-->
+                                    <div class="thumbnail" style="background-color: #9ae2ef">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <strong data-stamp="redeemed"><span class="label">사용완료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>숙박권</p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료 부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <!--기간만료 케이스가 필요한 경우에 이 타입을 사용하시면 됩니다. 로직상 필요없다면 생략 가능합니다.-->
+                                <strong data-stamp="expired"><span class="label">기간만료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>
+                                            1,000
+                                            <br />
+                                            RIM
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>객실료 5% 할인</h3>
+                                        <p>분기별 1회, 연 4회 | 강남, 앳 부산 코브</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="helper">
+                            <li>
+                                나의 등급에 대한 혜택 안내입니다.
+                                <br />
+                                혜택은 현장에서 사용 조건 충족 시 또는 쿠폰은 온라인에서 즉시 사용이 가능합니다.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tail" data-preview="false">
+                        <a class="cta" role="link" href="./"><span class="label">쿠폰 확인하기</span></a>
+                    </div>
+                </div>
+            </div>
+            <!--module type : Expand-->
+            <!--@TYPE : expand / @SIZE : medium / @VISUAL : backdrop / @VIEW : listing-->
+            <!--expand 모듈의 기본 타입. visual이 backdrop일때는 Gradient가 깔리고 텍스트 컬러는 기본 화이트로 설정됩니다.-->
+            <!--폰트 컬러를 임의 지정하는 기능이 들어갈 경우 다음의 코드와 토글해 주세요.-->
+            <!--<div class="head" style="backdround:none"><h2 style="color:#HEXVALUE"></h2><p style="color:#HEXVALUE"></p></div>-->
+            <!--서체 사이즈 제어는 엄격하게 제한합니다. 서체 사이즈 제어는 BO에서 설정이 불가능하게 설계 되어야 합니다.-->
+            <!--view 프로퍼티는 인터랙션에 관여합니다.-->
+            <div class="module-block" data-type="expand" data-size="medium" data-visual="backdrop" data-view="listing">
+                <div class="contents">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2024/08/01/20240801134726268.104678.jpg" /></div>
+                    <div class="head">
+                        <h2>
+                            바로 사용할 수 있는
+                            <br />
+                            RIM.2의 호텔 림 저니 혜택!
+                        </h2>
+                        <p>호텔 림 저니 혜택을 보러 가볼까요?</p>
+                    </div>
+                    <div class="body" data-contain="voucher">
+                        <div class="hero">
+                            <h3>
+                                이터널저니에서
+                                <br />
+                                <!--멤버십 모듈의 나의 림 카운트때와 동일한 방식입니다. 필요한 숫자를 sstmVal에 넣어주시면 작동합니다.-->
+                                <strong data-sstmML="numeric" data-sstmVal="2354"></strong>
+                                <span class="currency">RIM</span>
+                                적립되셨어요!
+                            </h3>
+                            <p class="helper">지금 바로 사용해 보세요!</p>
+                        </div>
+                        <ul>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 이미지로 출력하는 경우-->
+                                    <div class="thumbnail"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2023/11/10/20231110101314452.102516.png" /></div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>2회</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <div class="thumbnail">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li data-stamp="redeemed">
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>사용완료</p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료 부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <div class="thumbnail">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <!--li-->
+                            <!--    //기간만료 케이스가 필요한 경우에 이 타입을 사용하시면 됩니다. 로직상 필요없다면 생략 가능합니다.-->
+                            <!--    strong(data-stamp='expired')-->
+                            <!--        span.label 기간만료-->
+                            <!--    figure-->
+                            <!--        .thumbnail-->
+                            <!--            p-->
+                            <!--                | 1,000-->
+                            <!--                br-->
+                            <!--                | RIM-->
+                            <!--        figcaption-->
+                            <!--            h3 객실료 5% 할인-->
+                            <!--            p 분기별 1회, 연 4회 | 강남, 앳 부산 코브-->
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 이미지로 출력하는 경우-->
+                                    <div class="thumbnail"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2023/11/10/20231110101314452.102516.png" /></div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>2회</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <div class="thumbnail">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li data-stamp="redeemed">
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>사용완료</p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료 부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <div class="thumbnail">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <!--li-->
+                            <!--    //기간만료 케이스가 필요한 경우에 이 타입을 사용하시면 됩니다. 로직상 필요없다면 생략 가능합니다.-->
+                            <!--    strong(data-stamp='expired')-->
+                            <!--        span.label 기간만료-->
+                            <!--    figure-->
+                            <!--        .thumbnail-->
+                            <!--            p-->
+                            <!--                | 1,000-->
+                            <!--                br-->
+                            <!--                | RIM-->
+                            <!--        figcaption-->
+                            <!--            h3 객실료 5% 할인-->
+                            <!--            p 분기별 1회, 연 4회 | 강남, 앳 부산 코브-->
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 이미지로 출력하는 경우-->
+                                    <div class="thumbnail"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2023/11/10/20231110101314452.102516.png" /></div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>2회</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <div class="thumbnail">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li data-stamp="redeemed">
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>사용완료</p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료 부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <div class="thumbnail">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <!--li-->
+                            <!--    //기간만료 케이스가 필요한 경우에 이 타입을 사용하시면 됩니다. 로직상 필요없다면 생략 가능합니다.-->
+                            <!--    strong(data-stamp='expired')-->
+                            <!--        span.label 기간만료-->
+                            <!--    figure-->
+                            <!--        .thumbnail-->
+                            <!--            p-->
+                            <!--                | 1,000-->
+                            <!--                br-->
+                            <!--                | RIM-->
+                            <!--        figcaption-->
+                            <!--            h3 객실료 5% 할인-->
+                            <!--            p 분기별 1회, 연 4회 | 강남, 앳 부산 코브-->
+                        </ul>
+                        <ul class="helper">
+                            <li>
+                                나의 등급에 대한 혜택 안내입니다.
+                                <br />
+                                혜택은 현장에서 사용 조건 충족 시 또는 쿠폰은 온라인에서 즉시 사용이 가능합니다.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tail" data-preview="false">
+                        <a class="cta" role="link" href="./"><span class="label">쿠폰 확인하기</span></a>
+                    </div>
+                </div>
+            </div>
+            <!--module type : Expand-->
+            <!--@TYPE : expand / @SIZE : large / @VISUAL : default / @VIEW : listing-->
+            <!--view 프로퍼티는 인터랙션에 관여합니다.-->
+            <div class="module-block" data-type="expand" data-size="large" data-visual="default" data-view="listing">
+                <div class="contents">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="https://cdn.ananti.kr/adm/2024-01-09/LhOTj7cNIfzpFOvW0xzoqOKqiul777Io.png" /></div>
+                    <div class="head">
+                        <h2>
+                            바로 사용할 수 있는
+                            <br />
+                            RIM.2의 호텔 림 저니 혜택!
+                        </h2>
+                        <p>호텔 림 저니 혜택을 보러 가볼까요?</p>
+                    </div>
+                    <div class="body" data-contain="voucher">
+                        <ul>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 이미지로 출력하는 경우-->
+                                    <div class="thumbnail"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2023/11/10/20231110101314452.102516.png" /></div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>2회</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <div class="thumbnail">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <strong data-stamp="redeemed"><span class="label">사용완료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>숙박권</p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료 부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <!--기간만료 케이스가 필요한 경우에 이 타입을 사용하시면 됩니다. 로직상 필요없다면 생략 가능합니다.-->
+                                <strong data-stamp="expired"><span class="label">기간만료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>
+                                            1,000
+                                            <br />
+                                            RIM
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>객실료 5% 할인</h3>
+                                        <p>분기별 1회, 연 4회 | 강남, 앳 부산 코브</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 이미지로 출력하는 경우-->
+                                    <div class="thumbnail"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2023/11/10/20231110101314452.102516.png" /></div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>2회</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <div class="thumbnail">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <strong data-stamp="redeemed"><span class="label">사용완료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>숙박권</p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료 부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <!--기간만료 케이스가 필요한 경우에 이 타입을 사용하시면 됩니다. 로직상 필요없다면 생략 가능합니다.-->
+                                <strong data-stamp="expired"><span class="label">기간만료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>
+                                            1,000
+                                            <br />
+                                            RIM
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>객실료 5% 할인</h3>
+                                        <p>분기별 1회, 연 4회 | 강남, 앳 부산 코브</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 이미지로 출력하는 경우-->
+                                    <div class="thumbnail"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2023/11/10/20231110101314452.102516.png" /></div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>2회</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <div class="thumbnail">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <strong data-stamp="redeemed"><span class="label">사용완료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>숙박권</p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료 부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <!--기간만료 케이스가 필요한 경우에 이 타입을 사용하시면 됩니다. 로직상 필요없다면 생략 가능합니다.-->
+                                <strong data-stamp="expired"><span class="label">기간만료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>
+                                            1,000
+                                            <br />
+                                            RIM
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>객실료 5% 할인</h3>
+                                        <p>분기별 1회, 연 4회 | 강남, 앳 부산 코브</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="helper">
+                            <li>
+                                나의 등급에 대한 혜택 안내입니다.
+                                <br />
+                                혜택은 현장에서 사용 조건 충족 시 또는 쿠폰은 온라인에서 즉시 사용이 가능합니다.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tail" data-preview="true">
+                        <a class="cta" role="link" href="./"><span class="label">쿠폰 확인하기</span></a>
+                    </div>
+                </div>
+            </div>
+            <!--module type : Expand-->
+            <!--@TYPE : expand / @SIZE : huge / @VISUAL : default / @VIEW : listing-->
+            <!--view 프로퍼티는 인터랙션에 관여합니다.-->
+            <div class="module-block" data-type="expand" data-size="huge" data-visual="default" data-view="listing">
+                <div class="contents">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2023/11/10/20231110101314452.102516.png" /></div>
+                    <div class="head">
+                        <h2>
+                            바로 사용할 수 있는
+                            <br />
+                            RIM.2의 호텔 림 저니 혜택!
+                        </h2>
+                        <p>호텔 림 저니 혜택을 보러 가볼까요?</p>
+                    </div>
+                    <div class="body" data-contain="voucher">
+                        <ul>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 이미지로 출력하는 경우-->
+                                    <div class="thumbnail"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2023/11/10/20231110101314452.102516.png" /></div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>2회</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <div class="thumbnail">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <strong data-stamp="redeemed"><span class="label">사용완료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>숙박권</p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료 부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <!--기간만료 케이스가 필요한 경우에 이 타입을 사용하시면 됩니다. 로직상 필요없다면 생략 가능합니다.-->
+                                <strong data-stamp="expired"><span class="label">기간만료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>
+                                            1,000
+                                            <br />
+                                            RIM
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>객실료 5% 할인</h3>
+                                        <p>분기별 1회, 연 4회 | 강남, 앳 부산 코브</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 이미지로 출력하는 경우-->
+                                    <div class="thumbnail"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2023/11/10/20231110101314452.102516.png" /></div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>2회</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <div class="thumbnail">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <strong data-stamp="redeemed"><span class="label">사용완료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>숙박권</p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료 부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <!--기간만료 케이스가 필요한 경우에 이 타입을 사용하시면 됩니다. 로직상 필요없다면 생략 가능합니다.-->
+                                <strong data-stamp="expired"><span class="label">기간만료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>
+                                            1,000
+                                            <br />
+                                            RIM
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>객실료 5% 할인</h3>
+                                        <p>분기별 1회, 연 4회 | 강남, 앳 부산 코브</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 이미지로 출력하는 경우-->
+                                    <div class="thumbnail"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2023/11/10/20231110101314452.102516.png" /></div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>2회</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <!--쿠폰 썸네일을 텍스트로 출력하는 경우-->
+                                    <div class="thumbnail">
+                                        <p>
+                                            VIP
+                                            <br />
+                                            투어
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방) 상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <strong data-stamp="redeemed"><span class="label">사용완료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>숙박권</p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>부산 워터하우스 & 스프링팰리스 종일권 4인 무료 부산 워터하우스 & 스프링팰리스 4인 30% 할인</h3>
+                                        <p>상시 | 캐빈 U,T,F + 해피 아워 뷔페(37방)</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <!--기간만료 케이스가 필요한 경우에 이 타입을 사용하시면 됩니다. 로직상 필요없다면 생략 가능합니다.-->
+                                <strong data-stamp="expired"><span class="label">기간만료</span></strong>
+                                <figure>
+                                    <div class="thumbnail">
+                                        <p>
+                                            1,000
+                                            <br />
+                                            RIM
+                                        </p>
+                                    </div>
+                                    <figcaption>
+                                        <h3>객실료 5% 할인</h3>
+                                        <p>분기별 1회, 연 4회 | 강남, 앳 부산 코브</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
+                        <ul class="helper">
+                            <li>
+                                *나의 등급에 대한 혜택 안내입니다.
+                                <br />
+                                혜택은 현장에서 사용 조건 충족 시 또는 쿠폰은 온라인에서 즉시 사용이 가능합니다.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tail" data-preview="true">
+                        <a class="cta" role="link" href="./"><span class="label">쿠폰 확인하기</span></a>
+                    </div>
+                </div>
+            </div>
+            <!--module type : Default-->
+            <!--@TYPE : default / @SIZE : medium / @VISUAL : backdrop / @VIEW : none-->
+            <div class="module-block" data-type="default" data-size="large" data-visual="backdrop" data-view="none">
+                <div class="contents">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2022/12/14/20221214132108581.355240.jpg" /></div>
+                    <div class="head">
+                        <h2>
+                            열심히 모은 림
+                            <br />
+                            선물도 가능해요!
+                        </h2>
+                    </div>
+                    <div class="body"></div>
+                    <div class="tail" data-preview="false">
+                        <a class="cta" role="link" href="../gift/gift.html"><span class="label">지금 RIM 선물하기</span></a>
+                    </div>
+                </div>
+            </div>
+            <!--module type : Default-->
+            <!--@TYPE : default / @SIZE : medium / @VISUAL : none / @VIEW : remain-->
+            <!--view 프로퍼티는 인터랙션과 스타일링 일부에 관여합니다.-->
+            <div class="module-block" data-type="default" data-size="default" data-visual="backdrop">
+                <div class="contents" onclick="location.href='home.html'">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="https://cdn.ananti.kr/rimclub/modules/32/2024-09-01/LX0kdPSD9KiNEeqOwa4HTrPnJiupQAfd.jpg" /></div>
+                    <div class="head">
+                        <p>먹고, 마시고, RIM 모으라!</p>
+                        <h2>RIM 테이스티저니 패키지</h2>
+                    </div>
+                    <div class="body"></div>
+                    <div class="tail" data-preview="false">
+                        <!--사이즈 제한 정책으로 마크업을 넣어도 나오지 않는 케이스-->
+                        <a class="cta" role="link" href="../world/world.html">RIM.2 등급 혜택 미리보기</a>
+                    </div>
+                </div>
+            </div>
+            <!--module type : Default-->
+            <!--@TYPE : default / @SIZE : large / @VISUAL : none / @VIEW : remiain-->
+            <!--view 프로퍼티는 인터랙션과 스타일링 일부에 관여합니다.-->
+            <div class="module-block" data-type="default" data-size="medium" data-visual="inhouse" data-view="remain">
+                <!--08.30-->
+                <!--contents를 a로 변경했을때 문제가 생긴다면 아래 방법을 사용해도 좋습니다.-->
+                <!--contents 전체에 링크를 걸어야 하는 경우 role='link' onclick='location.href=' 로도 사용 가능.-->
+                <!--단, @TYPE: expand는 논리적으로 말이 안되기 때문에, 제한이 필요합니다. default의 경우만 사용 가능합니다. 스크립트에서 expand가 걸려 있으면 onclick 부분을 무력화 시키게 됩니다.-->
+                <!--단, default 타입이라고 하더라도, .tail에 button 이 있는 경우에도 무력화 시키게 됩니다.-->
+                <div class="contents" role="link" onclick="location.href='../history/history.html'">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2022/12/14/20221214132108581.355240.jpg" /></div>
+                    <div class="head">
+                        <h2>
+                            내가 왕이 될 상인가?
+                            <br />
+                            RIM으로 왕좌를 노리는 장하영님.
+                        </h2>
+                    </div>
+                    <div class="body">
+                        <div class="gauge">
+                            <h4>
+                                <strong class="level">RIM.2</strong>
+                                <span>까지</span>
+                                <strong class="rim">1,500 RIM</strong>
+                                <span>남음</span>
+                            </h4>
+                            <!--기획서상 화면에 정의된 데이터를 기반으로 값을 산정.-->
+                            <!--위 숫자로부터 화면 구성에 수치들은 스크립트에서 계산.-->
+                            <!--개발팀 확인을 위해 아래 연산의 값들을 콘솔에 찍어두었습니다. 참고 부탁드립니다.-->
+                            <!--sstmVal = 목표 (다음 레벨 값)-->
+                            <!--sstmVal-remain = 남음 (다음 레벨까지 남은 값)-->
+                            <!--(sstamVal - sstmval-remain)/sstamVal*100 = gauge percent (스크립트에서 연산)-->
+                            <strong data-sstmMl="gauge" data-sstmVal="10000" data-sstmVal-remain="1500" aria-label="RIM.2까지 1,500 RIM 남았습니다"><span></span></strong>
+                        </div>
+                    </div>
+                    <div class="tail" data-preview="false"><a class="cta" role="link" href="../world/world.html">RIM.2 등급 혜택 미리보기</a></div>
+                </div>
+            </div>
+            <!--module type : Default-->
+            <!--@TYPE : default / @SIZE : large / @VISUAL : none / @VIEW : preview (미리보기)-->
+            <!--view 프로퍼티는 인터랙션과 스타일링 일부에 관여합니다.-->
+            <div class="module-block" data-type="default" data-size="large" data-visual="none" data-view="preview">
+                <div class="contents">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2022/12/14/20221214132108581.355240.jpg" /></div>
+                    <div class="head">
+                        <h2>
+                            최근 어떤 적립이 있었는지
+                            <br />
+                            알고 계시나요?
+                        </h2>
+                    </div>
+                    <div class="body">
+                        <div class="summary">
+                            <!--RIM 히스토리 상세의 '전체'탭 데이터를 4~5건 정도 제한하여 최근순으로 출력해주시면 됩니다. (갯수는 조정과정에서 변경 가능성 있습니다)-->
+                            <ul class="history-group">
+                                <li>
+                                    <div class="history" data-type="added" data-visual="mall">
+                                        <span class="pictogram"></span>
+                                        <div class="label">
+                                            <h4>온라인몰</h4>
+                                            <small>구매적립</small>
+                                        </div>
+                                        <div class="value">
+                                            <strong>+75 RIM</strong>
+                                            <time datetime="2024-08-15">2024-08-15</time>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="history" data-type="reduced" data-visual="gift">
+                                        <span class="pictogram"></span>
+                                        <div class="label">
+                                            <h4>RIM 선물</h4>
+                                            <small>선물하기 (To. 홍길동)</small>
+                                        </div>
+                                        <div class="value">
+                                            <strong>-300 RIM</strong>
+                                            <time datetime="2024-08-15">2024-08-15</time>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="history" data-type="expired" data-visual="expired">
+                                        <span class="pictogram"></span>
+                                        <div class="label">
+                                            <h4>RIM 소멸</h4>
+                                            <small>기간소멸</small>
+                                        </div>
+                                        <div class="value">
+                                            <strong>-1,000 RIM</strong>
+                                            <time datetime="2024-08-15">2024-08-15</time>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="history" data-type="added" data-visual="fnb">
+                                        <span class="pictogram"></span>
+                                        <div class="label">
+                                            <h4>베케트</h4>
+                                            <small>선물적립 (To. 홍길동)</small>
+                                        </div>
+                                        <div class="value">
+                                            <strong>+350 RIM</strong>
+                                            <time datetime="2024-08-15">2024-08-15</time>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="history" data-type="added" data-visual="gift">
+                                        <span class="pictogram"></span>
+                                        <div class="label">
+                                            <h4>RIM 선물</h4>
+                                            <small>선물적립 (From. 아모레퍼시픽 1321323312323)</small>
+                                        </div>
+                                        <div class="value">
+                                            <strong>+2,000 RIM</strong>
+                                            <time datetime="2024-08-15">2024-08-15</time>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="history" data-type="added" data-visual="gift">
+                                        <span class="pictogram"></span>
+                                        <div class="label">
+                                            <h4>RIM 선물</h4>
+                                            <small>선물적립 (From. 아모레퍼시픽)</small>
+                                        </div>
+                                        <div class="value">
+                                            <strong>+100 RIM</strong>
+                                            <time datetime="2024-08-15">2024-08-15</time>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tail" data-preview="false">
+                        <a class="cta" role="link" href="../history/history.html"><span class="label">지금 히스토리 더보기</span></a>
+                    </div>
+                </div>
+            </div>
+            <!--module type : Default-->
+            <!--@TYPE : default / @SIZE : medium / @VISUAL : backdrop / @VIEW : none-->
+            <div class="module-block" data-type="default" data-size="medium" data-visual="backdrop" data-view="none">
+                <div class="contents">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2022/12/14/20221214132108581.355240.jpg" /></div>
+                    <div class="head">
+                        <h2>
+                            열심히 모은 림
+                            <br />
+                            선물도 가능해요!
+                        </h2>
+                    </div>
+                    <div class="body"></div>
+                    <div class="tail" data-preview="false">
+                        <a class="cta" role="link" href="../gift/gift.html"><span class="label">지금 RIM 선물하기</span></a>
+                    </div>
+                </div>
+            </div>
+            <!--module type : Default-->
+            <!--@TYPE : default / @SIZE : large / @VISUAL : none / @VIEW : available-->
+            <!--view 프로퍼티는 인터랙션과 스타일링 일부에 관여합니다.-->
+            <div class="module-block" data-type="default" data-size="large" data-visual="inhouse" data-view="available">
+                <div class="contents">
+                    <button class="dismiss" role="button" aria-label="닫기"><span class="pictogram"></span></button>
+                    <div class="visual"><img loading="lazy" src="https://cdn.ananti.kr/ej/_/attach/2022/12/14/20221214132108581.355240.jpg" /></div>
+                    <div class="head">
+                        <h2>가는 RIM이 고와야 오는 RIM이 곱다.</h2>
+                        <p>3,000 RIM을 선물할 수 있어요!</p>
+                    </div>
+                    <div class="body">
+                        <div class="summary">
+                            <p>선물 가능한 RIM</p>
+                            <h4>
+                                <strong>3,000</strong>
+                                <span class="currency">RIM</span>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="tail" data-preview="false">
+                        <a class="cta" role="link" href="../gift/gift.html"><span class="label">RIM 선물하기</span></a>
+                    </div>
+                </div>
+            </div>
+            <!--08.30 푸터를 모듈화하여 모듈 스크롤러 안으로 삽입-->
+            <div class="module-block" data-type="footer" data-size="flex">
+                <div class="contents">
+                    <div class="head"><strong>ⓒ ANANTI RIM CLUB</strong></div>
+                    <div class="body">
+                        <!--이후 확장을 위해 넣어두었습니다.-->
+                        <!--상업적인 서비스가 들어갈 경우 사업자 정보 등이 들어가는 위치입니다.-->
+                        <!--현재는 보이지 않게 처리되었습니다.-->
+                    </div>
+                    <div class="tail">
+                        <!--이후 확장을 위해 넣어두었습니다.-->
+                        <!--E.C 관련 버튼 등이 필요하다면 들어갑니다. 또는 아난티/이터널 저니 이동 버튼 등이 들어갑니다.-->
+                        <!--현재는 보이지 않게 처리되었습니다.-->
+                    </div>
+                </div>
+            </div>
+        </main>
+        <nav class="dock" id="dock">
+            <ul>
+                <li>
+                    <div class="rim">
+                        <button type="button">
+                            <span class="pictogram"></span>
+                            <span class="label">림 클럽</span>
+                        </button>
+                        <ul>
+                            <li>
+                                <a class="club" href="../world/world.html">
+                                    <span class="pictogram"></span>
+                                    <span class="label">림 클럽 소개</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="respect" href="../world/world-membership.html">
+                                    <span class="pictogram"></span>
+                                    <span class="label">리스펙</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="signup" href="./">
+                                    <span class="pictogram"></span>
+                                    <span class="label">클럽 가입하기</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="rim" href="../world/world.html">
+                        <span class="pictogram"></span>
+                        <span class="label">림 클럽</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="gift" href="../gift/gift.html">
+                        <span class="pictogram"></span>
+                        <span class="label">선물하기</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="history" href="../history/history.html">
+                        <span class="pictogram"></span>
+                        <span class="label">히스토리</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="home" href="../home/home.html">
+                        <span class="pictogram"></span>
+                        <span class="label">MY RIM</span>
+                    </a>
+                </li>
+                <li>
+                    <div class="portal">
+                        <button role="button">
+                            <span class="pictogram ananti"></span>
+                            <span class="pictogram eternaljourney"></span>
+                        </button>
+                        <ul>
+                            <li><a class="ananti" href="https://ananti.kr/">아난티 바로가기</a></li>
+                            <li><a class="eternaljourney" href="https://eternaljourney.ananti.kr/">이터널저니 바로가기</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <button class="top" id="top">
+            <span class="label">화면 최상단으로 이동</span>
+            <span class="pictogram"></span>
+        </button>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="350px" height="254px" viewBox="0 0 350 254" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>log-line</title>
+    <g id="style#1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-109, -62)">
+            <g id="log-line" transform="translate(109, 62)">
+                <rect id="Rectangle" fill-opacity="0" fill="#FFFFFF" opacity="0.596034459" x="0" y="0" width="350" height="254"></rect>
+                <path d="M10,244 C168.333333,223 278.333333,145 340,10" id="Path-10" stroke="#ccc" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
